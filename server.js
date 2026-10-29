@@ -261,18 +261,10 @@ app.use('/vendor/chartjs', express.static(path.join(__dirname, 'node_modules/cha
 const pad = n => String(n).padStart(2, '0');
 const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const HHMM = /^([01]\d|2[0-3]):[0-5]\d$/;
-// Server (Vercel/Render) runs in UTC, so always compute date/time in the college timezone.
-const APP_TZ = process.env.APP_TZ || 'Asia/Kolkata';
-const tzParts = () => {
-  const p = {};
-  new Intl.DateTimeFormat('en-GB', { timeZone: APP_TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23' })
-    .formatToParts(new Date()).forEach(x => { p[x.type] = x.value; });
-  return p;
-};
-const todayISO = () => { const p = tzParts(); return `${p.year}-${p.month}-${p.day}`; };
+const todayISO = () => { const d = new Date(); return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`; };
 const weekdayFor = date => DAYS[new Date(`${date}T12:00:00`).getDay()];
 const toMin = t => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
-const nowMin = () => { const p = tzParts(); return Number(p.hour) * 60 + Number(p.minute) + Number(p.second) / 60; };
+const nowMin = () => { const d = new Date(); return d.getHours() * 60 + d.getMinutes() + d.getSeconds() / 60; };
 const roomKey = v => String(v || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
 const bad = (m, s = 400) => Object.assign(new Error(m), { status: s });
 const h = fn => (req, res, next) => Promise.resolve(fn(req, res, next)).catch(e => {
