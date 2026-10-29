@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/portal.css">
 </head>
-<body>
+<body class="auth-pending">
+  <div class="auth-checking" id="authStatus" role="status">Checking your sign-in…</div>
+  <button class="auth-retry" id="authRetry" type="button" hidden>Try again</button>
   <div class="shell">
     <aside class="sidebar">
       <a class="brand" href="/"><span class="brand-mark">⌁</span><span>nova<span>ID</span><small>SMART ATTENDANCE</small></span></a>
@@ -166,6 +168,50 @@
   </div>
   <div class="toast-stack" id="toasts" aria-live="polite"></div>
   <script src="/vendor/chartjs/chart.umd.js"></script>
-  <script src="/app.js"></script>
+  <script>
+    const authStatus = document.getElementById('authStatus');
+    const authRetry = document.getElementById('authRetry');
+
+    async function startDashboard() {
+      const token = localStorage.token;
+      if (!token) {
+        location.replace('/login.html?next=' + encodeURIComponent(location.pathname + location.search + location.hash));
+        return;
+      }
+
+      authRetry.hidden = true;
+      authStatus.textContent = 'Checking your sign-in…';
+      try {
+        const response = await fetch('/api/auth/session', {
+          cache: 'no-store',
+          headers: { Authorization: 'Bearer ' + token }
+        });
+        if (response.status === 401) {
+          localStorage.removeItem('token');
+          localStorage.removeItem('user');
+          location.replace('/login.html?next=' + encodeURIComponent(location.pathname + location.search + location.hash));
+          return;
+        }
+        if (!response.ok) throw new Error(`Server returned ${response.status}`);
+
+        const data = await response.json();
+        localStorage.user = JSON.stringify(data.user);
+        const appScript = document.createElement('script');
+        appScript.src = '/app.js';
+        appScript.onload = () => document.body.classList.remove('auth-pending');
+        appScript.onerror = () => {
+          authStatus.textContent = 'Could not load the dashboard. Please try again.';
+          authRetry.hidden = false;
+        };
+        document.body.appendChild(appScript);
+      } catch (error) {
+        authStatus.textContent = `Could not verify your sign-in: ${error.message}`;
+        authRetry.hidden = false;
+      }
+    }
+
+    authRetry.addEventListener('click', startDashboard);
+    startDashboard();
+  </script>
 </body>
 </html>

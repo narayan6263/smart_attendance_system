@@ -4,6 +4,10 @@
 *{box-sizing:border-box}
 body{margin:0;background:#f3f6fc;color:#17233d;font:14px 'DM Sans',sans-serif}
 button,input,select{font:inherit}
+body.auth-pending .shell,body.auth-pending .toast-stack{display:none!important}
+.auth-checking{display:none}
+body.auth-pending .auth-checking{min-height:100vh;display:grid;place-content:center;padding:24px;color:#71809a;text-align:center}
+.auth-retry{position:fixed;top:calc(50% + 28px);left:50%;transform:translateX(-50%);border:0;border-radius:8px;padding:9px 16px;background:#4d7dff;color:#fff;font-weight:700;cursor:pointer}
 .shell{min-height:100vh;display:grid;grid-template-columns:250px minmax(0,1fr)}
 .sidebar{position:sticky;top:0;height:100vh;padding:28px 18px;background:linear-gradient(160deg,#102344,#081329 78%);color:#dce8ff;display:flex;flex-direction:column}
 .brand{display:flex;gap:11px;align-items:center;color:white;text-decoration:none;font:700 21px 'Space Grotesk';letter-spacing:-1px;margin:0 3px 48px}
@@ -75,6 +79,7 @@ footer{padding:22px 4px;color:#8794a9;font-size:9px;letter-spacing:1px}
 .auth-card>p{color:#8591a6;font-size:12px;margin:0 0 24px}
 .auth-form{display:grid;gap:14px}
 .auth-form label{display:grid;gap:6px;color:#71809a;font-size:11px}
+.auth-form label[hidden]{display:none!important}
 .auth-form .form-control{min-height:42px}
 .auth-form button{min-height:42px;margin-top:4px}
 .auth-toggle{margin-top:18px;text-align:center;color:#7f8ba0;font-size:11px}

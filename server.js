@@ -418,6 +418,7 @@ app.post('/api/auth/login', h(async (req, res) => {
   if (!t || !(await bcrypt.compare(String(req.body?.password || ''), t.passwordHash))) throw bad('Wrong email or password.', 401);
   res.json(session(t));
 }));
+app.get('/api/auth/session', auth, (req, res) => res.json({ user: req.user }));
 app.get('/api/health', (req, res) => res.json({ ok: true, mongo: mongoose.connection.readyState === 1 }));
 
 /* ---------- RFID scan (called by NodeMCU) ---------- */
