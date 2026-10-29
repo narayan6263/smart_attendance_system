@@ -242,6 +242,8 @@ const { parse } = require('csv-parse/sync');
 const fs = require('fs');
 const os = require('os');
 const { execFile } = require('child_process');
+require('dotenv').config();
+
 
 const PORT = Number(process.env.PORT || 9000);
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/smart_attendance';
@@ -254,6 +256,14 @@ const app = express();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024 } });
 app.use(express.json({ limit: '1mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
+
+
+app.use(async (req, res, next) => {
+  try { await dbReady(); next(); }
+  catch (e) { res.status(500).json({ message: 'Database connection failed: ' + e.message }); }
+});
+
+
 app.use('/vendor/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
 app.use('/vendor/chartjs', express.static(path.join(__dirname, 'node_modules/chart.js/dist')));
 
@@ -742,49 +752,23 @@ app.post('/api/timetable/import', auth, adminOnly, upload.single('file'), h(asyn
 }));
 app.get('/students-template.csv', (req, res) => { res.attachment('students-template.csv').type('text/csv').send('uid,name,rollNo,className,group\n04 A3 1B 2C,Rahul Sharma,1,25MAM-2,B\n'); });
 
-/* ---------- live scanner devices (ESP32 reports power + scan results) ---------- */
-const devices = new Map(); // roomKey -> live state, kept in memory, refreshed by the device every 5 s
-
-app.post('/api/device/report', deviceAuth, (req, res) => {
-  const body = req.body || {};
-  const room = String(body.room || '').trim();
-  const key = roomKey(room);
-  if (!key) return res.status(400).json({ message: 'room is required' });
-
-  const d = devices.get(key) || { room, power: 'off', events: [] };
-  d.room = room;
-  d.power = body.power === 'on' ? 'on' : 'off';
-  d.lastSeen = new Date();
-
-  if (body.event) {
-    const ev = {
-      type: String(body.event).slice(0, 20),
-      uid: String(body.uid || '').slice(0, 40),
-      name: String(body.name || '').slice(0, 80),
-      at: new Date()
-    };
-    d.lastEvent = ev;
-    d.events = [ev, ...(d.events || [])].slice(0, 15);
-  }
-  devices.set(key, d);
-  res.json({ ok: true });
-});
-
-app.get('/api/devices', auth, (req, res) => {
-  const now = Date.now();
-  res.json({
-    devices: [...devices.values()].map(d => ({
-      ...d,
-      online: now - new Date(d.lastSeen).getTime() < 15000
-    }))
-  });
-});
-
 /* ---------- start ---------- */
-(async () => {
-  try {
-    await mongoose.connect(MONGO_URI);
-    console.log('MongoDB connected');
-    app.listen(PORT, '0.0.0.0', () => console.log(`Smart Attendance: http://localhost:${PORT} | device API: POST /api/scan`));
-  } catch (e) { console.error('MongoDB connection failed:', e.message); process.exit(1); }
-})();
+// (async () => {
+//   try {
+//     await mongoose.connect(MONGO_URI);
+//     console.log('MongoDB connected');
+//     app.listen(PORT, '0.0.0.0', () => console.log(`Smart Attendance: http://localhost:${PORT} | device API: POST /api/scan`));
+//   } catch (e) { console.error('MongoDB connection failed:', e.message); process.exit(1); }
+// })();
+let connPromise;
+const dbReady = () => connPromise || (connPromise = mongoose.connect(MONGO_URI));
+
+
+
+if (process.env.VERCEL) {
+  module.exports = app;
+} else {
+  dbReady()
+    .then(() => app.listen(PORT, '0.0.0.0', () => console.log(`Running on port ${PORT}`)))
+    .catch(err => { console.error('MongoDB connection failed:', err.message); process.exit(1); });
+}
