@@ -47,9 +47,11 @@
       document.getElementById('formDescription').textContent = registering
         ? 'Register with the employee code listed in your timetable.'
         : 'Sign in with your teacher account to continue.';
-      document.getElementById('nameField').hidden = !registering;
-      document.getElementById('empCodeField').hidden = !registering;
-      document.getElementById('regCodeField').hidden = !registering;
+      ['nameField', 'empCodeField', 'regCodeField'].forEach(id => {
+        const field = document.getElementById(id);
+        field.hidden = !registering;
+        field.style.display = registering ? 'grid' : 'none';
+      });
       form.elements.name.required = registering;
       form.elements.empCode.required = registering;
       form.elements.password.autocomplete = registering ? 'new-password' : 'current-password';
@@ -58,6 +60,8 @@
       toggle.textContent = registering ? 'Sign in' : 'Create an account';
       errorBox.classList.remove('show');
     }
+
+    renderMode();
 
     toggle.addEventListener('click', () => {
       registering = !registering;
