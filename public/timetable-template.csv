@@ -1,0 +1,3 @@
+className,day,startTime,endTime,type,subjectCode,subject,room,block,groups,teachers,teacherCodes
+25MAM-2B,Monday,09:55,10:40,lecture,CS101,Example lecture,Room-101,Main,,Simran,E15037
+25MAM-2B,Monday,10:45,12:15,lab,CS102,Example lab,Lab-2,Main,A,Simran,E15037

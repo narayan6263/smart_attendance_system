@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Teacher sign in · NovaID</title>
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/portal.css">
+</head>
+<body class="auth-page">
+  <section class="auth-art">
+    <a class="brand" href="/"><span class="brand-mark">⌁</span><span>nova<span>ID</span><small>SMART ATTENDANCE</small></span></a>
+    <div class="eyebrow">TEACHER CONTROL CENTER</div>
+    <h1>Attendance,<br><span>made simple.</span></h1>
+    <p>Sign in to manage your lectures, approve RFID attendance, and review student reports.</p>
+  </section>
+  <main class="auth-card-wrap">
+    <section class="auth-card">
+      <div class="eyebrow">NOVAID · SMART ATTENDANCE</div>
+      <h2 id="formTitle">Welcome back</h2>
+      <p id="formDescription">Sign in with your teacher account to continue.</p>
+      <div id="authError" class="auth-error" role="alert"></div>
+      <form id="authForm" class="auth-form">
+        <label id="nameField" hidden>Full name<input class="form-control" name="name" autocomplete="name"></label>
+        <label>Email address<input class="form-control" name="email" type="email" autocomplete="username" required></label>
+        <label id="empCodeField" hidden>Employee code<input class="form-control" name="empCode" autocomplete="off" placeholder="e.g. E15037"></label>
+        <label>Password<input class="form-control" name="password" type="password" autocomplete="current-password" minlength="6" required></label>
+        <label id="regCodeField" hidden>Teacher registration code <span class="muted">(only if provided by your administrator)</span><input class="form-control" name="code" autocomplete="off"></label>
+        <button id="submitButton" class="btn btn-primary" type="submit">Sign in</button>
+      </form>
+      <div class="auth-toggle"><span id="toggleText">New teacher?</span> <button id="toggleMode" type="button">Create an account</button></div>
+    </section>
+  </main>
+  <script>
+    const form = document.getElementById('authForm');
+    const errorBox = document.getElementById('authError');
+    const toggle = document.getElementById('toggleMode');
+    let registering = false;
+
+    function showError(message) {
+      errorBox.textContent = message;
+      errorBox.classList.add('show');
+    }
+
+    function renderMode() {
+      document.getElementById('formTitle').textContent = registering ? 'Create teacher account' : 'Welcome back';
+      document.getElementById('formDescription').textContent = registering
+        ? 'Register with the employee code listed in your timetable.'
+        : 'Sign in with your teacher account to continue.';
+      document.getElementById('nameField').hidden = !registering;
+      document.getElementById('empCodeField').hidden = !registering;
+      document.getElementById('regCodeField').hidden = !registering;
+      form.elements.name.required = registering;
+      form.elements.empCode.required = registering;
+      form.elements.password.autocomplete = registering ? 'new-password' : 'current-password';
+      document.getElementById('submitButton').textContent = registering ? 'Create account' : 'Sign in';
+      document.getElementById('toggleText').textContent = registering ? 'Already registered?' : 'New teacher?';
+      toggle.textContent = registering ? 'Sign in' : 'Create an account';
+      errorBox.classList.remove('show');
+    }
+
+    toggle.addEventListener('click', () => {
+      registering = !registering;
+      renderMode();
+    });
+
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      errorBox.classList.remove('show');
+      const button = document.getElementById('submitButton');
+      button.disabled = true;
+      button.textContent = registering ? 'Creating account…' : 'Signing in…';
+      const body = Object.fromEntries(new FormData(form).entries());
+      try {
+        const response = await fetch(`/api/auth/${registering ? 'register' : 'login'}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.message || `Request failed (${response.status})`);
+        localStorage.token = data.token;
+        localStorage.user = JSON.stringify(data.user);
+        const next = new URLSearchParams(location.search).get('next');
+        location.replace(next && next.startsWith('/') && !next.startsWith('//') ? next : '/');
+      } catch (error) {
+        showError(error.message);
+      } finally {
+        button.disabled = false;
+        button.textContent = registering ? 'Create account' : 'Sign in';
+      }
+    });
+  </script>
+</body>
+</html>

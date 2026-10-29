@@ -1,0 +1,758 @@
+className,day,startTime,endTime,type,subjectCode,subject,room,block,groups,teachers,teacherCodes
+25MAM-1,Monday,09:55,11:25,lab,25CAH-727,Data Analytics,Multi_Lab-215,E1,"A,B",Ms. Sweta / Dr. Rinku Sharma,E15013;E10730
+25MAM-1,Monday,11:25,12:10,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-408,E1,B,Mr. Sanjeev Kumar,E20624
+25MAM-1,Monday,12:55,13:40,lecture,25CAP-707,Technical Training-II,Lect-Hall-109,E1,A,Ms. Nikita Pathak,E20639
+25MAM-1,Monday,13:40,14:25,lecture,25CAH-727,Data Analytics,Lect-Hall-109,E1,,Ms. Deepali Saini,E12444
+25MAM-1,Tuesday,09:55,10:40,lecture,25CAT-721,Deep Learning,Lect-Hall-113,E1,,Dr. Gagandeep Kaur,E11625
+25MAM-1,Tuesday,10:40,11:25,lecture,25CAH-724,Natural Language Processing,Lect-Hall-117,E1,,Dr. Disha Handa,E11162
+25MAM-1,Tuesday,11:25,12:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-111,E1,A,Dr. Gagandeep Kaur,E11625
+25MAM-1,Tuesday,11:25,12:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,B,Mr. Ajay,E19598
+25MAM-1,Tuesday,13:40,14:25,lecture,25CAH-727,Data Analytics,Lect-Hall-109,E1,,Ms. Deepali Saini,E12444
+25MAM-1,Tuesday,14:25,15:55,lab,25TDT-711,Aptitude-II,Lect-Hall-109,E1,,Mr. Chetan Sharma,E15946
+25MAM-1,Wednesday,10:40,11:25,lecture,25CAH-724,Natural Language Processing,Lect-Hall-109,E1,,Dr. Disha Handa,E11162
+25MAM-1,Wednesday,11:25,12:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-110,E1,A,Dr. Maajid Bashir,E17205
+25MAM-1,Wednesday,11:25,12:55,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,B,Mr. Sachin Raj,E18365
+25MAM-1,Wednesday,13:40,14:25,lecture,25CAH-723,Internet of Things,Lect-Hall-113,E1,,Mr. Sachin Chawla,E6667
+25MAM-1,Wednesday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,A,Ms. Simran,E11678
+25MAM-1,Wednesday,14:25,15:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-413,E1,B,Dr. Maajid Bashir,E17205
+25MAM-1,Thursday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-111,E1,A,Dr. Gagandeep Kaur,E11625
+25MAM-1,Thursday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-302,E1,B,Dr. Maajid Bashir,E17205
+25MAM-1,Thursday,11:25,12:55,lab,25CAH-723,Internet of Things,Hardware Lab-109,E2,A,Mr. Sachin Chawla,E6667
+25MAM-1,Thursday,11:25,12:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-111,E1,B,Dr. Disha Handa,E11162
+25MAM-1,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-109,E1,"A,B",Mr. Rishabh Tomar / Ms. Gurpreet Kaur,E15752;E15615
+25MAM-1,Thursday,14:25,15:10,lecture,25CAH-727,Data Analytics,Lect-Hall-115,E1,,Ms. Deepali Saini,E12444
+25MAM-1,Thursday,15:10,15:55,lecture,25CAT-721,Deep Learning,Lect-Hall-115,E1,,Dr. Gagandeep Kaur,E11625
+25MAM-1,Friday,09:55,10:40,lecture,25CAT-721,Deep Learning,Lecture Hall-225,E2,,Dr. Gagandeep Kaur,E11625
+25MAM-1,Friday,10:40,11:25,lecture,25CAH-723,Internet of Things,Lecture Hall-225,E2,,Mr. Sachin Chawla,E6667
+25MAM-1,Friday,12:55,14:25,lab,25CAH-723,Internet of Things,Hardware Lab-109,E2,A,Mr. Sachin Chawla,E6667
+25MAM-1,Friday,12:55,14:25,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,B,Mr. Sachin Raj,E18365
+25MAM-1,Friday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-110,E1,A,Dr. Maajid Bashir,E17205
+25MAM-1,Friday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-202,E1,B,Dr. Disha Handa,E11162
+25MAM-2,Monday,09:55,10:40,lecture,25CAT-721,Deep Learning,Multi_Lab-413,E1,,Dr. Lovkesh Singh,E18584
+25MAM-2,Monday,10:40,11:25,lecture,25CAH-727,Data Analytics,Multi_Lab-413,E1,,Mr. Anand Pandey,E10516
+25MAM-2,Monday,11:25,12:10,lecture,25CAH-724,Natural Language Processing,Lect-Hall-309,E1,,Ms. Manisha Nagpal,E14588
+25MAM-2,Monday,12:55,13:40,lecture,25CAP-707,Technical Training-II,Multi_Lab-313,E1,A,Dr. Javed Alam,E17984
+25MAM-2,Monday,12:55,14:25,lab,25CAH-723,Internet of Things,Hardware Lab-109,E2,B,Mr. Sachin Raj,E18365
+25MAM-2,Monday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-206,E1,A,Ms. Manisha Nagpal,E14588
+25MAM-2,Monday,14:25,15:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-207,E1,B,Dr. Maajid Bashir,E17205
+25MAM-2,Tuesday,09:55,11:25,lab,25CAH-727,Data Analytics,Multi_Lab-406,E1,"A,B",Dr. Kawaljit Kaur / Mr. Sanjay Kumar Aggarwal,E6621;E13150
+25MAM-2,Tuesday,11:25,12:10,lecture,25CAH-727,Data Analytics,Lect-Hall-312,E1,,Mr. Anand Pandey,E10516
+25MAM-2,Tuesday,12:55,14:25,lab,25TDT-711,Aptitude-II,Multi_Lab-215,E1,,Mr. Ankur Sharma,E14679
+25MAM-2,Tuesday,14:25,15:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-302,E1,A,Dr. Lovkesh Singh,E18584
+25MAM-2,Tuesday,14:25,15:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-207,E1,B,Dr. Maajid Bashir,E17205
+25MAM-2,Wednesday,09:55,11:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,A,Ms. Simran,E11678
+25MAM-2,Wednesday,09:55,11:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-207,E1,B,Ms. Kamna Priya,E18978
+25MAM-2,Wednesday,11:25,12:10,lecture,25CAH-724,Natural Language Processing,Multi_Lab-215,E1,,Ms. Manisha Nagpal,E14588
+25MAM-2,Wednesday,12:55,13:40,lecture,25CAT-721,Deep Learning,Lect-Hall-309,E1,,Dr. Lovkesh Singh,E18584
+25MAM-2,Wednesday,13:40,14:25,lecture,25CAH-723,Internet of Things,Lect-Hall-117,E1,,Mr. Gaurav Mehta,E14354
+25MAM-2,Wednesday,14:25,15:55,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,A,Mr. Gaurav Mehta,E14354
+25MAM-2,Thursday,10:40,11:25,lecture,25CAH-723,Internet of Things,Lect-Hall-109,E1,,Mr. Gaurav Mehta,E14354
+25MAM-2,Thursday,11:25,12:10,lecture,25CAT-721,Deep Learning,Lect-Hall-213,E1,,Dr. Lovkesh Singh,E18584
+25MAM-2,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-305,E1,"A,B",Ms. Tanisha / Dr. Maajid Bashir,E20679;E17205
+25MAM-2,Thursday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-307,E1,A,Ms. Manisha Nagpal,E14588
+25MAM-2,Thursday,14:25,15:55,lab,25CAH-723,Internet of Things,Hardware Lab-402,E1,B,Mr. Sachin Raj,E18365
+25MAM-2,Friday,09:55,11:25,lab,25CAH-723,Internet of Things,Hardware Lab-110,E2,A,Mr. Gaurav Mehta,E14354
+25MAM-2,Friday,09:55,11:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-302,E1,B,Ms. Kamna Priya,E18978
+25MAM-2,Friday,12:55,14:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-307,E1,A,Dr. Lovkesh Singh,E18584
+25MAM-2,Friday,12:55,14:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,B,Mr. Ajay,E19598
+25MAM-2,Friday,14:25,15:10,lecture,25CAH-727,Data Analytics,Lect-Hall-117,E1,,Mr. Anand Pandey,E10516
+25MAM-2,Friday,15:10,15:55,lecture,25CAP-707,Technical Training-II,Lect-Hall-109,E1,B,Mr. Sanjeev Kumar,E20624
+25MAM-3,Monday,10:40,11:25,lecture,25CAT-721,Deep Learning,Lect-Hall-113,E1,,Dr. Lovkesh Singh,E18584
+25MAM-3,Monday,11:25,12:10,lecture,25CAH-727,Data Analytics,Multi_Lab-415,E1,,Ms. Sweta,E15013
+25MAM-3,Monday,12:55,14:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-111,E1,A,Dr. Gagandeep Kaur,E11625
+25MAM-3,Monday,12:55,14:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-201,E1,B,Dr. Lovkesh Singh,E18584
+25MAM-3,Monday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,A,Ms. Simran,E11678
+25MAM-3,Monday,14:25,15:55,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,B,Dr. Sunaina Singh,E20695
+25MAM-3,Tuesday,09:55,11:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-207,E1,A,Dr. Maajid Bashir,E17205
+25MAM-3,Tuesday,09:55,11:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-302,E1,B,Ms. Kamna Priya,E18978
+25MAM-3,Tuesday,11:25,12:10,lecture,25CAH-723,Internet of Things,Multi_Lab-413,E1,,Dr. Vartika,E20577
+25MAM-3,Tuesday,12:55,14:25,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,A,Mr. Gaurav Mehta,E14354
+25MAM-3,Tuesday,12:55,14:25,lab,25CAH-723,Internet of Things,Hardware Lab-402,E1,B,Dr. Sunaina Singh,E20695
+25MAM-3,Tuesday,14:25,15:10,lecture,25CAP-707,Technical Training-II,Lect-Hall-117,E1,B,Ms. Indu Sharma,E15037
+25MAM-3,Wednesday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-201,E1,A,Dr. Gagandeep Kaur,E11625
+25MAM-3,Wednesday,09:55,11:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,B,Mr. Ajay,E19598
+25MAM-3,Wednesday,11:25,12:55,lab,25TDT-711,Aptitude-II,Multi_Lab-413,E1,,Mr. Chetan Sharma,E15946
+25MAM-3,Wednesday,13:40,14:25,lecture,25CAH-727,Data Analytics,Lecture Hall-225,E2,,Ms. Sweta,E15013
+25MAM-3,Thursday,09:55,10:40,lecture,25CAH-723,Internet of Things,Lect-Hall-109,E1,,Dr. Vartika,E20577
+25MAM-3,Thursday,10:40,11:25,lecture,25CAT-721,Deep Learning,Lecture Hall-226,E2,,Dr. Lovkesh Singh,E18584
+25MAM-3,Thursday,11:25,12:10,lecture,25CAH-727,Data Analytics,Lecture Hall-226,E2,,Ms. Sweta,E15013
+25MAM-3,Thursday,12:55,13:40,lecture,25CAH-724,Natural Language Processing,Multi_Lab-401,E1,,Dr. Maajid Bashir,E17205
+25MAM-3,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-312,E1,"A,B",Ms. Ruchika Devi / Ms. Reeti Jaswal,E10474;E13367
+25MAM-3,Thursday,14:25,15:55,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,A,Mr. Gaurav Mehta,E14354
+25MAM-3,Thursday,14:25,15:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-201,E1,B,Dr. Lovkesh Singh,E18584
+25MAM-3,Friday,09:55,10:40,lecture,25CAH-724,Natural Language Processing,Lect-Hall-309,E1,,Dr. Maajid Bashir,E17205
+25MAM-3,Friday,10:40,11:25,lecture,25CAT-721,Deep Learning,Lect-Hall-115,E1,,Dr. Lovkesh Singh,E18584
+25MAM-3,Friday,11:25,12:10,lecture,25CAP-707,Technical Training-II,Multi_Lab-306,E1,A,Mr. Anand Pandey,E10516
+25MAM-3,Friday,12:55,14:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-201,E1,A,Dr. Maajid Bashir,E17205
+25MAM-3,Friday,12:55,14:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-301,E1,B,Ms. Kamna Priya,E18978
+25MAM-3,Friday,14:25,15:55,lab,25CAH-727,Data Analytics,Multi_Lab-401,E1,"A,B",Ms. Sweta / Dr. Kawaljit Kaur,E15013;E6621
+25MAM-4,Monday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-306,E1,A,Dr. Javed Alam,E17984
+25MAM-4,Monday,09:55,11:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-111,E1,B,Ms. Manisha Nagpal,E14588
+25MAM-4,Monday,11:25,12:10,lecture,25CAT-721,Deep Learning,Lect-Hall-205,E1,,Dr. Javed Alam,E17984
+25MAM-4,Monday,12:10,12:55,lecture,25CAH-724,Natural Language Processing,Lect-Hall-109,E1,,Mr. Sanjeev Kumar,E20624
+25MAM-4,Monday,13:40,14:25,lecture,25CAH-727,Data Analytics,Lect-Hall-117,E1,,Ms. Sweta,E15013
+25MAM-4,Monday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,A,Mr. Sharad Malhotra,E15490
+25MAM-4,Monday,14:25,15:10,lecture,25CAP-707,Technical Training-II,Lecture Hall-226,E2,B,Dr. Mandeep Singh,E8730
+25MAM-4,Tuesday,09:55,11:25,lab,25CAH-727,Data Analytics,Multi_Lab-417,E1,"A,B",Ms. Sweta / Ms. Deepali Saini,E15013;E12444
+25MAM-4,Tuesday,11:25,12:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-406,E1,B,Ms. Manisha Nagpal,E14588
+25MAM-4,Tuesday,12:10,12:55,lecture,25CAP-707,Technical Training-II,Lecture Hall-224,E2,A,Mr. Sanjeev Kumar,E20624
+25MAM-4,Tuesday,14:25,15:10,lecture,25CAH-723,Internet of Things,Lecture Hall-226,E2,,Dr. Vartika,E20577
+25MAM-4,Wednesday,09:55,11:25,lab,25CAH-723,Internet of Things,Hardware Lab-402,E1,A,Mr. Sachin Raj,E18365
+25MAM-4,Wednesday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-306,E1,B,Dr. Swati,E20290
+25MAM-4,Wednesday,12:10,12:55,lecture,25CAH-727,Data Analytics,Lect-Hall-113,E1,,Ms. Sweta,E15013
+25MAM-4,Wednesday,13:40,14:25,lecture,25CAT-721,Deep Learning,Multi_Lab-415,E1,,Dr. Javed Alam,E17984
+25MAM-4,Wednesday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-111,E1,A,Dr. Ashaq Hussain Bhat,E17059
+25MAM-4,Wednesday,14:25,15:55,lab,25CAH-723,Internet of Things,Hardware Lab-109,E2,B,Dr. Sunaina Singh,E20695
+25MAM-4,Thursday,09:55,11:25,lab,25CAH-723,Internet of Things,Hardware Lab-402,E1,A,Mr. Sachin Raj,E18365
+25MAM-4,Thursday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-202,E1,B,Dr. Swati,E20290
+25MAM-4,Thursday,11:25,12:10,lecture,25CAH-724,Natural Language Processing,Lect-Hall-113,E1,,Mr. Sanjeev Kumar,E20624
+25MAM-4,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,SoftSkills Lab-408,E1,"A,B",Dr. Javed Alam / Dr. Swati,E17984;E20290
+25MAM-4,Thursday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-415,E1,A,Dr. Ashaq Hussain Bhat,E17059
+25MAM-4,Thursday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,B,Mr. Ajay,E19598
+25MAM-4,Friday,09:55,10:40,lecture,25CAT-721,Deep Learning,Multi_Lab-413,E1,,Dr. Javed Alam,E17984
+25MAM-4,Friday,10:40,11:25,lecture,25CAH-727,Data Analytics,Multi_Lab-413,E1,,Ms. Sweta,E15013
+25MAM-4,Friday,11:25,12:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-111,E1,A,Dr. Javed Alam,E17984
+25MAM-4,Friday,11:25,12:55,lab,25CAH-723,Internet of Things,Hardware Lab-402,E1,B,Dr. Sunaina Singh,E20695
+25MAM-4,Friday,13:40,14:25,lecture,25CAH-723,Internet of Things,Lecture Hall-225,E2,,Dr. Vartika,E20577
+25MAM-4,Friday,14:25,15:55,lab,25TDT-711,Aptitude-II,Lecture Hall-226,E2,,Mr. Ankur Sharma,E14679
+25MAM-5,Monday,09:55,11:25,lab,25TDT-711,Aptitude-II,Lecture Hall-226,E2,,Mr. Ankur Sharma,E14679
+25MAM-5,Monday,11:25,12:10,lecture,25CAT-721,Deep Learning,Lect-Hall-210,E1,,Ms. Nikita Pathak,E20639
+25MAM-5,Monday,12:55,14:25,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,A,Dr. Sunaina Singh,E20695
+25MAM-5,Monday,12:55,14:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-306,E1,B,Dr. Swati,E20290
+25MAM-5,Monday,14:25,15:10,lecture,25CAH-727,Data Analytics,Lect-Hall-205,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MAM-5,Tuesday,10:40,11:25,lecture,25CAT-721,Deep Learning,Lect-Hall-210,E1,,Ms. Nikita Pathak,E20639
+25MAM-5,Tuesday,11:25,12:10,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-408,E1,A,Mr.Rithik,E20677
+25MAM-5,Tuesday,11:25,12:55,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,B,Mr. Sachin Raj,E18365
+25MAM-5,Tuesday,12:55,14:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-307,E1,A,Dr. Ashaq Hussain Bhat,E17059
+25MAM-5,Tuesday,14:25,15:55,lab,25CAH-727,Data Analytics,Multi_Lab-313,E1,"A,B",Mr. Sanjay Kumar Aggarwal / Mr. Anand Pandey,E13150;E10516
+25MAM-5,Wednesday,09:55,10:40,lecture,25CAH-724,Natural Language Processing,Lect-Hall-213,E1,,Dr. Ashaq Hussain Bhat,E17059
+25MAM-5,Wednesday,10:40,11:25,lecture,25CAH-723,Internet of Things,Lect-Hall-312,E1,,Dr. Sunaina Singh,E20695
+25MAM-5,Wednesday,11:25,12:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-206,E1,A,Ms. Nikita Pathak,E20639
+25MAM-5,Wednesday,11:25,12:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,B,Mr. Sharad Malhotra,E15490
+25MAM-5,Wednesday,13:40,14:25,lecture,25CAT-721,Deep Learning,Lect-Hall-210,E1,,Ms. Nikita Pathak,E20639
+25MAM-5,Wednesday,14:25,15:10,lecture,25CAH-727,Data Analytics,Lect-Hall-109,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MAM-5,Thursday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-411,E1,A,Ms. Nikita Pathak,E20639
+25MAM-5,Thursday,09:55,11:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-110,E1,B,Ms. Manisha Nagpal,E14588
+25MAM-5,Thursday,11:25,12:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,A,Ms. Simran,E11678
+25MAM-5,Thursday,11:25,12:55,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,B,Mr. Sachin Raj,E18365
+25MAM-5,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-210,E1,"A,B",Mr.Parveen Kumar / Mr. Randeep,E20561;E20403
+25MAM-5,Thursday,14:25,15:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-306,E1,B,Dr. Swati,E20290
+25MAM-5,Friday,09:55,10:40,lecture,25CAH-724,Natural Language Processing,Lect-Hall-210,E1,,Dr. Ashaq Hussain Bhat,E17059
+25MAM-5,Friday,10:40,11:25,lecture,25CAH-723,Internet of Things,Lect-Hall-117,E1,,Dr. Sunaina Singh,E20695
+25MAM-5,Friday,11:25,12:10,lecture,25CAH-727,Data Analytics,Lect-Hall-312,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MAM-5,Friday,12:55,14:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-413,E1,A,Dr. Ashaq Hussain Bhat,E17059
+25MAM-5,Friday,12:55,13:40,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-408,E1,B,Dr. Mandeep Singh,E8730
+25MAM-5,Friday,14:25,15:55,lab,25CAH-723,Internet of Things,Hardware Lab-402,E1,A,Dr. Sunaina Singh,E20695
+25MAM-5,Friday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-201,E1,B,Ms. Manisha Nagpal,E14588
+25MAM-6,Monday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-201,E1,A,Dr. Gagandeep Kaur,E11625
+25MAM-6,Monday,09:55,11:25,lab,25CAH-723,Internet of Things,Hardware Lab-109,E2,B,Dr Babita Dhiman,E15941
+25MAM-6,Monday,11:25,12:55,lab,25CAH-727,Data Analytics,Multi_Lab-215,E1,"A,B",Mr. Sanjay Kumar Aggarwal / Mr. Arshid Ahmad Wani,E13150;E15587
+25MAM-6,Monday,13:40,14:25,lecture,25CAH-724,Natural Language Processing,Lecture Hall-226,E2,,Ms. Manisha Nagpal,E14588
+25MAM-6,Monday,14:25,15:10,lecture,25RST-704,AI & Data-Driven Research,Lect-Hall-113,E1,,Mr. M. Rashid,E13453
+25MAM-6,Monday,15:10,15:55,lecture,25INT-705,AI Automation & Sustainability,Lect-Hall-117,E1,,Ms. Damanpreet Kaur,R258
+25MAM-6,Tuesday,09:55,10:40,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-408,E1,A,Mr.Rithik,E20677
+25MAM-6,Tuesday,09:55,11:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-313,E1,B,Dr. Swati,E20290
+25MAM-6,Tuesday,11:25,12:10,lecture,25CAH-727,Data Analytics,Lect-Hall-117,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MAM-6,Tuesday,12:55,14:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-306,E1,A,Ms. Nikita Pathak,E20639
+25MAM-6,Tuesday,14:25,15:55,lab,25CAH-723,Internet of Things,Hardware Lab-402,E1,A,Dr. Sunaina Singh,E20695
+25MAM-6,Wednesday,09:55,10:40,lecture,25CAH-723,Internet of Things,Lect-Hall-109,E1,,Dr. Sunaina Singh,E20695
+25MAM-6,Wednesday,11:25,12:10,lecture,25CAT-721,Deep Learning,Lect-Hall-109,E1,,Dr. Gagandeep Kaur,E11625
+25MAM-6,Wednesday,12:55,14:25,lab,25CAH-723,Internet of Things,Hardware Lab-208,E1,A,Dr. Sunaina Singh,E20695
+25MAM-6,Wednesday,12:55,14:25,lab,25CAH-723,Internet of Things,Hardware Lab-402,E1,B,Dr Babita Dhiman,E15941
+25MAM-6,Wednesday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-206,E1,A,Ms. Nikita Pathak,E20639
+25MAM-6,Wednesday,14:25,15:55,lab,25CAP-722,Deep Learning Lab,Multi_Lab-401,E1,B,Dr. Swati,E20290
+25MAM-6,Thursday,09:55,10:40,lecture,25CAH-723,Internet of Things,Lecture Hall-225,E2,,Dr. Sunaina Singh,E20695
+25MAM-6,Thursday,11:25,12:10,lecture,25CAT-721,Deep Learning,Lect-Hall-109,E1,,Dr. Gagandeep Kaur,E11625
+25MAM-6,Thursday,12:55,13:40,lecture,25CAH-727,Data Analytics,Lect-Hall-115,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MAM-6,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Multi_Lab-313,E1,"A,B",Ms. Deepali Saini / Ms. Manisha Nagpal,E12444;E14588
+25MAM-6,Thursday,14:25,15:55,lab,25CAH-724,Natural Language Processing,Multi_Lab-202,E1,B,Ms. Nikita Pathak,E20639
+25MAM-6,Friday,09:55,10:40,lecture,25CAH-724,Natural Language Processing,Lect-Hall-205,E1,,Ms. Manisha Nagpal,E14588
+25MAM-6,Friday,10:40,11:25,lecture,25CAH-727,Data Analytics,Lect-Hall-205,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MAM-6,Friday,11:25,12:10,lecture,25CAT-721,Deep Learning,Lect-Hall-205,E1,,Dr. Gagandeep Kaur,E11625
+25MAM-6,Friday,12:55,14:25,lab,25CAP-722,Deep Learning Lab,Multi_Lab-215,E1,A,Dr. Gagandeep Kaur,E11625
+25MAM-6,Friday,12:55,14:25,lab,25CAH-724,Natural Language Processing,Multi_Lab-110,E1,B,Ms. Nikita Pathak,E20639
+25MAM-6,Friday,14:25,15:10,lecture,25CAP-707,Technical Training-II,Lect-Hall-213,E1,B,Mr. Sanjeev Kumar,E20624
+25MCA-1,Monday,09:55,11:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,B,Mr. Ajay,E19598
+25MCA-1,Monday,10:40,11:25,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-105,E2,A,Dr. Bachandeep Singh Bhathal,E7981
+25MCA-1,Monday,11:25,12:10,lecture,25CAH-706,Backend Technologies,Lecture Hall-226,E2,A,Mr.Parveen Kumar,E20561
+25MCA-1,Monday,11:25,12:55,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,B,Mr. Sachin Chawla,E6667
+25MCA-1,Monday,12:55,14:25,lab,25CAH-706,Backend Technologies,Multi_Lab-110,E1,A,Mr. Danish Rashid Pala,E17308
+25MCA-1,Monday,14:25,15:55,lab,25CAH-703,Business Analytics,Multi_Lab-111,E1,A,Ms. Indu Sharma,E15037
+25MCA-1,Tuesday,09:55,10:40,lecture,25CAH-703,Business Analytics,Lect-Hall-109,E1,,Ms. Indu Sharma,E15037
+25MCA-1,Tuesday,10:40,11:25,lecture,25CAP-707,Technical Training-II,Multi_Lab-206,E1,B,Mr. Sanjeev Kumar,E20624
+25MCA-1,Tuesday,11:25,12:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-110,E1,A,Er. Prabhjot Kaur,E17274
+25MCA-1,Tuesday,11:25,12:55,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,B,Mr. Sachin Chawla,E6667
+25MCA-1,Tuesday,13:40,14:25,lecture,25CAH-704,Advanced Mobile Application Development,Multi_Lab-417,E1,B,Ms. Ruchika Devi,E10474
+25MCA-1,Tuesday,14:25,15:55,lab,25CAH-708,Internet of Things,Hardware Lab-109,E2,A,Dr Babita Dhiman,E15941
+25MCA-1,Tuesday,14:25,15:55,lab,25CAH-703,Business Analytics,Multi_Lab-306,E1,B,Mr. Navdeep Singh Sodhi,E13472
+25MCA-1,Wednesday,09:55,11:25,lab,25CAH-706,Backend Technologies,Multi_Lab-110,E1,A,Mr. Danish Rashid Pala,E17308
+25MCA-1,Wednesday,09:55,11:25,lab,25CAH-704,Advanced Mobile Application Development,Multi_Lab-401,E1,B,Ms. Ruchika Devi,E10474
+25MCA-1,Wednesday,11:25,12:10,lecture,25CAH-708,Internet of Things,Lect-Hall-115,E1,,Dr Babita Dhiman,E15941
+25MCA-1,Wednesday,12:10,12:55,lecture,25CAT-701,Machine Learning,Lect-Hall-115,E1,,Ms. Reeti Jaswal,E13367
+25MCA-1,Wednesday,13:40,14:25,lecture,25CAH-703,Business Analytics,Lect-Hall-109,E1,,Ms. Indu Sharma,E15037
+25MCA-1,Wednesday,14:25,15:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-110,E1,A,Er. Prabhjot Kaur,E17274
+25MCA-1,Wednesday,14:25,15:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-411,E1,B,Ms. Reeti Jaswal,E13367
+25MCA-1,Thursday,09:55,11:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,A,Ms. Simran,E11678
+25MCA-1,Thursday,09:55,11:25,lab,25CAH-704,Advanced Mobile Application Development,Multi_Lab-413,E1,B,Ms. Ruchika Devi,E10474
+25MCA-1,Thursday,12:55,13:40,lecture,25CAT-701,Machine Learning,Lect-Hall-109,E1,,Ms. Reeti Jaswal,E13367
+25MCA-1,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-115,E1,"A,B",Ms. Indu Sharma / Dr. Gagandeep Kaur,E15037;E12617
+25MCA-1,Thursday,14:25,15:10,lecture,25CAH-706,Backend Technologies,Lect-Hall-109,E1,A,Mr.Parveen Kumar,E20561
+25MCA-1,Thursday,14:25,15:10,lecture,25CAH-704,Advanced Mobile Application Development,Lect-Hall-309,E1,B,Ms. Ruchika Devi,E10474
+25MCA-1,Thursday,15:10,15:55,lecture,25CAH-708,Internet of Things,Lect-Hall-109,E1,,Dr Babita Dhiman,E15941
+25MCA-1,Friday,09:55,11:25,lab,25TDT-711,Aptitude-II,Lect-Hall-113,E1,,Mr. Chetan Sharma,E15946
+25MCA-1,Friday,11:25,12:10,lecture,25CAT-701,Machine Learning,Lect-Hall-115,E1,,Ms. Reeti Jaswal,E13367
+25MCA-1,Friday,12:55,13:40,lecture,25CAH-703,Business Analytics,Lect-Hall-113,E1,,Ms. Indu Sharma,E15037
+25MCA-1,Friday,14:25,15:55,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,A,Dr Babita Dhiman,E15941
+25MCA-1,Friday,14:25,15:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-306,E1,B,Ms. Reeti Jaswal,E13367
+25MCA-2,Monday,09:55,11:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-207,E1,A,Ms. Kamna Priya,E18978
+25MCA-2,Monday,09:55,11:25,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,B,Mr. Hardeep,E15683
+25MCA-2,Monday,11:25,12:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,A,Ms. Simran,E11678
+25MCA-2,Monday,11:25,12:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-111,E1,B,Ms. Damanpreet Kaur,R258
+25MCA-2,Monday,13:40,14:25,lecture,25CAH-703,Business Analytics,Lect-Hall-113,E1,,Ms. Indu Sharma,E15037
+25MCA-2,Monday,14:25,15:55,lab,25CAH-706,Backend Technologies,Multi_Lab-201,E1,B,Ms. Gurpreet Kaur,E14273
+25MCA-2,Tuesday,09:55,10:40,lecture,25CAH-708,Internet of Things,Lect-Hall-312,E1,,Dr Babita Dhiman,E15941
+25MCA-2,Tuesday,10:40,11:25,lecture,25CAH-703,Business Analytics,Lect-Hall-109,E1,,Ms. Indu Sharma,E15037
+25MCA-2,Tuesday,11:25,12:10,lecture,25CAH-706,Backend Technologies,Lect-Hall-305,E1,,Mr.Parveen Kumar,E20561
+25MCA-2,Tuesday,12:55,14:25,lab,25CAH-706,Backend Technologies,Multi_Lab-110,E1,A,Mr.Parveen Kumar,E20561
+25MCA-2,Tuesday,12:55,14:25,lab,25CAH-706,Backend Technologies,Multi_Lab-201,E1,B,Ms. Gurpreet Kaur,E14273
+25MCA-2,Tuesday,14:25,15:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-417,E1,B,Ms. Damanpreet Kaur,R258
+25MCA-2,Wednesday,09:55,11:25,lab,25TDT-711,Aptitude-II,Multi_Lab-411,E1,,Mr. Ankur Sharma,E14679
+25MCA-2,Wednesday,11:25,12:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-301,E1,A,Ms. Kamna Priya,E18978
+25MCA-2,Wednesday,11:25,12:55,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,B,Mr. Hardeep,E15683
+25MCA-2,Wednesday,13:40,14:25,lecture,25CAT-701,Machine Learning,Lect-Hall-205,E1,,Ms. Kamna Priya,E18978
+25MCA-2,Wednesday,14:25,15:55,lab,25CAH-706,Backend Technologies,Multi_Lab-202,E1,A,Mr.Parveen Kumar,E20561
+25MCA-2,Thursday,09:55,10:40,lecture,25CAH-708,Internet of Things,Lect-Hall-115,E1,,Dr Babita Dhiman,E15941
+25MCA-2,Thursday,10:40,11:25,lecture,25CAT-701,Machine Learning,Lect-Hall-213,E1,,Ms. Kamna Priya,E18978
+25MCA-2,Thursday,11:25,12:55,lab,25CAH-708,Internet of Things,Hardware Lab-104,E2,A,Dr Babita Dhiman,E15941
+25MCA-2,Thursday,11:25,12:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,B,Mr. Ajay,E19598
+25MCA-2,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Multi_Lab-415,E1,"A,B",Ms. Palwinder Kaur Mangat / Ms. Mansirat Kaur,E9422;E5399
+25MCA-2,Thursday,14:25,15:55,lab,25CAH-703,Business Analytics,Multi_Lab-417,E1,A,Ms. Indu Sharma,E15037
+25MCA-2,Friday,09:55,10:40,lecture,25CAH-703,Business Analytics,Lect-Hall-117,E1,,Ms. Indu Sharma,E15037
+25MCA-2,Friday,10:40,11:25,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-407,E1,A,Dr. Bachandeep Singh Bhathal,E7981
+25MCA-2,Friday,10:40,11:25,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-408,E1,B,Ms. Nikita Pathak,E20639
+25MCA-2,Friday,11:25,12:10,lecture,25CAT-701,Machine Learning,Multi_Lab-415,E1,,Ms. Kamna Priya,E18978
+25MCA-2,Friday,12:55,14:25,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,A,Dr Babita Dhiman,E15941
+25MCA-2,Friday,12:55,14:25,lab,25CAH-703,Business Analytics,Multi_Lab-411,E1,B,Ms. Sweta,E15013
+25MCA-2,Friday,14:25,15:10,lecture,25CAH-706,Backend Technologies,Lect-Hall-113,E1,,Mr.Parveen Kumar,E20561
+25MCA-3,Monday,09:55,10:40,lecture,25CAH-706,Backend Technologies,Multi_Lab-411,E1,,Mr.Parveen Kumar,E20561
+25MCA-3,Monday,10:40,11:25,lecture,25CAP-707,Technical Training-II,Multi_Lab-206,E1,A,Mr.Rithik,E20677
+25MCA-3,Monday,10:40,11:25,lecture,25CAP-707,Technical Training-II,Multi_Lab-301,E1,B,Ms. Nikita Pathak,E20639
+25MCA-3,Monday,11:25,12:10,lecture,25CAT-701,Machine Learning,Lect-Hall-113,E1,,Mr. Munish Kumar,E16513
+25MCA-3,Monday,12:55,14:25,lab,25TDT-711,Aptitude-II,Multi_Lab-413,E1,,Mr. Chetan Sharma,E15946
+25MCA-3,Monday,14:25,15:55,lab,25CAH-706,Backend Technologies,Multi_Lab-406,E1,A,Mr.Parveen Kumar,E20561
+25MCA-3,Monday,14:25,15:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-313,E1,B,Dr. Pawandeep Sharma,E2916
+25MCA-3,Tuesday,09:55,11:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-307,E1,A,Mr. Munish Kumar,E16513
+25MCA-3,Tuesday,09:55,11:25,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,B,Mr. Hardeep,E15683
+25MCA-3,Tuesday,12:10,12:55,lecture,25CAH-703,Business Analytics,Lect-Hall-113,E1,,Ms. Sweta,E15013
+25MCA-3,Tuesday,13:40,14:25,lecture,25CAH-708,Internet of Things,Lect-Hall-312,E1,,Mr. Sachin Raj,E18365
+25MCA-3,Tuesday,14:25,15:55,lab,25CAH-703,Business Analytics,Multi_Lab-202,E1,A,Ms. Sweta,E15013
+25MCA-3,Tuesday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,B,Mr. Ajay,E19598
+25MCA-3,Wednesday,10:40,11:25,lecture,25CAH-703,Business Analytics,Lecture Hall-225,E2,,Ms. Sweta,E15013
+25MCA-3,Wednesday,11:25,12:10,lecture,25CAH-706,Backend Technologies,Lect-Hall-117,E1,,Mr.Parveen Kumar,E20561
+25MCA-3,Wednesday,12:55,13:40,lecture,25CAT-701,Machine Learning,Lect-Hall-210,E1,,Mr. Munish Kumar,E16513
+25MCA-3,Wednesday,14:25,15:55,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,A,Dr Babita Dhiman,E15941
+25MCA-3,Wednesday,14:25,15:55,lab,25CAH-703,Business Analytics,Multi_Lab-201,E1,B,Mr. Navdeep Singh Sodhi,E13472
+25MCA-3,Thursday,09:55,11:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-306,E1,A,Mr. Munish Kumar,E16513
+25MCA-3,Thursday,09:55,11:25,lab,25CAH-706,Backend Technologies,Multi_Lab-207,E1,B,Mr. Danish Rashid Pala,E17308
+25MCA-3,Thursday,11:25,12:55,lab,25CAH-706,Backend Technologies,Multi_Lab-302,E1,A,Mr.Parveen Kumar,E20561
+25MCA-3,Thursday,11:25,12:55,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,B,Mr. Hardeep,E15683
+25MCA-3,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-117,E1,"A,B",Mr. Navdeep Singh Sodhi / Dr. Nisha Sharma,E13472;E2915
+25MCA-3,Thursday,14:25,15:10,lecture,25CAT-701,Machine Learning,Lect-Hall-205,E1,,Mr. Munish Kumar,E16513
+25MCA-3,Friday,09:55,11:25,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,A,Dr Babita Dhiman,E15941
+25MCA-3,Friday,09:55,11:25,lab,25CAH-706,Backend Technologies,Multi_Lab-202,E1,B,Mr. Danish Rashid Pala,E17308
+25MCA-3,Friday,11:25,12:10,lecture,25CAH-703,Business Analytics,Lect-Hall-109,E1,,Ms. Sweta,E15013
+25MCA-3,Friday,12:55,14:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,A,Mr. Sharad Malhotra,E15490
+25MCA-3,Friday,12:55,14:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-111,E1,B,Dr. Pawandeep Sharma,E2916
+25MCA-3,Friday,14:25,15:10,lecture,25CAH-708,Internet of Things,Lect-Hall-109,E1,,Mr. Sachin Raj,E18365
+25MCA-4,Monday,09:55,10:40,lecture,25CAH-703,Business Analytics,Lect-Hall-115,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MCA-4,Monday,10:40,11:25,lecture,25CAT-701,Machine Learning,Lecture Hall-224,E2,,Ms. Reeti Jaswal,E13367
+25MCA-4,Monday,11:25,12:10,lecture,25CAH-706,Backend Technologies,Lecture Hall-226,E2,A,Mr.Parveen Kumar,E20561
+25MCA-4,Monday,12:55,14:25,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,A,Mr. Hardeep,E15683
+25MCA-4,Monday,14:25,15:55,lab,25CAH-706,Backend Technologies,Multi_Lab-110,E1,A,Mr. Anand Pandey,E10516
+25MCA-4,Monday,14:25,15:55,lab,25CAH-704,Advanced Mobile Application Development,Multi_Lab-306,E1,B,Ms. Ruchika Devi,E10474
+25MCA-4,Tuesday,09:55,11:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-413,E1,,Ms. Reeti Jaswal,E13367
+25MCA-4,Tuesday,11:25,12:10,lecture,25CAH-708,Internet of Things,Lect-Hall-213,E1,,Mr. Hardeep,E15683
+25MCA-4,Tuesday,12:10,12:55,lecture,25CAT-701,Machine Learning,Lect-Hall-117,E1,,Ms. Reeti Jaswal,E13367
+25MCA-4,Tuesday,13:40,14:25,lecture,25CAH-704,Advanced Mobile Application Development,Multi_Lab-417,E1,B,Ms. Ruchika Devi,E10474
+25MCA-4,Tuesday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-408,E1,,Ms. Simran,E11678
+25MCA-4,Wednesday,09:55,10:40,lecture,25CAH-708,Internet of Things,Multi_Lab-417,E1,,Mr. Hardeep,E15683
+25MCA-4,Wednesday,10:40,11:25,lecture,25CAT-701,Machine Learning,Lect-Hall-210,E1,,Ms. Reeti Jaswal,E13367
+25MCA-4,Wednesday,11:25,12:10,lecture,25CAH-703,Business Analytics,Multi_Lab-406,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MCA-4,Thursday,09:55,11:25,lab,25CAH-703,Business Analytics,Multi_Lab-301,E1,,Ms. Indu Sharma,E15037
+25MCA-4,Thursday,11:25,12:55,lab,25CAH-706,Backend Technologies,Multi_Lab-301,E1,A,Mr. Anand Pandey,E10516
+25MCA-4,Thursday,11:25,12:55,lab,25CAH-704,Advanced Mobile Application Development,Multi_Lab-202,E1,B,Ms. Ruchika Devi,E10474
+25MCA-4,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Multi_Lab-417,E1,,Dr. Mandeep Singh,E8730
+25MCA-4,Thursday,14:25,15:10,lecture,25CAH-706,Backend Technologies,Lect-Hall-109,E1,A,Mr.Parveen Kumar,E20561
+25MCA-4,Thursday,14:25,15:10,lecture,25CAH-704,Advanced Mobile Application Development,Lect-Hall-309,E1,B,Ms. Ruchika Devi,E10474
+25MCA-4,Thursday,15:10,15:55,lecture,25CAH-703,Business Analytics,Lect-Hall-205,E1,,Mr. Sanjay Kumar Aggarwal,E13150
+25MCA-4,Friday,09:55,11:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-401,E1,,Ms. Reeti Jaswal,E13367
+25MCA-4,Friday,11:25,12:55,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,A,Mr. Hardeep,E15683
+25MCA-4,Friday,13:40,14:25,lecture,25CAP-707,Technical Training-II,Lect-Hall-109,E1,,Dr. Bachandeep Singh Bhathal,E7981
+25MCA-4,Friday,14:25,15:55,lab,25TDT-711,Aptitude-II,Lect-Hall-205,E1,,Mr. Chetan Sharma,E15946
+25MCA-5,Monday,09:55,10:40,lecture,25CAP-707,Technical Training-II,Lect-Hall-312,E1,A,Ms. Shruti,E13567
+25MCA-5,Monday,09:55,11:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-110,E1,B,Ms. Harjeet Kaur,E20036
+25MCA-5,Monday,11:25,12:55,lab,25CAH-705,Automation Software Testing,Multi_Lab-110,E1,A,Ms. Priyanka,E18375
+25MCA-5,Monday,11:25,12:55,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,B,Mr. Gaurav Mehta,E14354
+25MCA-5,Monday,13:40,14:25,lecture,25CAH-703,Business Analytics,Lect-Hall-115,E1,,Mr. Navdeep Singh Sodhi,E13472
+25MCA-5,Monday,14:25,15:55,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,A,Mr. Hardeep,E15683
+25MCA-5,Monday,14:25,15:55,lab,25CAH-705,Automation Software Testing,Multi_Lab-401,E1,B,Ms. Priyanka,E18375
+25MCA-5,Tuesday,09:55,11:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,A,Ms. Simran,E11678
+25MCA-5,Tuesday,09:55,11:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,B,Mr. Ajay,E19598
+25MCA-5,Tuesday,11:25,12:10,lecture,25CAH-703,Business Analytics,Multi_Lab-401,E1,,Mr. Navdeep Singh Sodhi,E13472
+25MCA-5,Tuesday,12:55,13:40,lecture,25CAH-708,Internet of Things,Multi_Lab-413,E1,,Mr. Hardeep,E15683
+25MCA-5,Tuesday,13:40,14:25,lecture,25CAT-701,Machine Learning,Lect-Hall-213,E1,,Dr. Javed Alam,E17984
+25MCA-5,Tuesday,14:25,15:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-301,E1,A,Dr. Javed Alam,E17984
+25MCA-5,Tuesday,14:25,15:10,lecture,25CAP-707,Technical Training-II,Lect-Hall-210,E1,B,Ms. Nikita Pathak,E20639
+25MCA-5,Wednesday,09:55,11:25,lab,25CAH-703,Business Analytics,Multi_Lab-302,E1,A,Mr. Navdeep Singh Sodhi,E13472
+25MCA-5,Wednesday,09:55,11:25,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,B,Mr. Gaurav Mehta,E14354
+25MCA-5,Wednesday,11:25,12:10,lecture,25CAT-701,Machine Learning,Lect-Hall-210,E1,,Dr. Javed Alam,E17984
+25MCA-5,Wednesday,13:40,14:25,lecture,25CAH-705,Automation Software Testing,Lect-Hall-305,E1,,Ms. Priyanka,E18375
+25MCA-5,Thursday,09:55,11:25,lab,25TDT-711,Aptitude-II,Lect-Hall-113,E1,,Mr. Chetan Sharma,E15946
+25MCA-5,Thursday,11:25,12:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-110,E1,A,Dr. Javed Alam,E17984
+25MCA-5,Thursday,11:25,12:55,lab,25CAH-705,Automation Software Testing,Multi_Lab-207,E1,B,Ms. Priyanka,E18375
+25MCA-5,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-205,E1,"A,B",Ms. Kamna Priya / Dr. Rajan Saluja,E18978;E15748
+25MCA-5,Thursday,14:25,15:55,lab,25CAH-705,Automation Software Testing,Multi_Lab-207,E1,A,Ms. Priyanka,E18375
+25MCA-5,Thursday,14:25,15:55,lab,25CAH-703,Business Analytics,Multi_Lab-110,E1,B,Ms. Sweta,E15013
+25MCA-5,Friday,10:40,11:25,lecture,25CAH-708,Internet of Things,Lect-Hall-305,E1,,Mr. Hardeep,E15683
+25MCA-5,Friday,11:25,12:10,lecture,25CAH-703,Business Analytics,Multi_Lab-406,E1,,Mr. Navdeep Singh Sodhi,E13472
+25MCA-5,Friday,12:55,13:40,lecture,25CAH-705,Automation Software Testing,Lect-Hall-117,E1,,Ms. Priyanka,E18375
+25MCA-5,Friday,13:40,14:25,lecture,25CAT-701,Machine Learning,Lect-Hall-117,E1,,Dr. Javed Alam,E17984
+25MCA-5,Friday,14:25,15:55,lab,25CAH-708,Internet of Things,Hardware Lab-104,E2,A,Mr. Hardeep,E15683
+25MCA-5,Friday,14:25,15:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-307,E1,B,Ms. Harjeet Kaur,E20036
+25MCA-6,Monday,09:55,11:25,lab,25CAH-708,Internet of Things,Hardware Lab-402,E1,B,Mr. Gaurav Mehta,E14354
+25MCA-6,Monday,11:25,12:10,lecture,25CAT-701,Machine Learning,Lecture Hall-225,E2,,Dr. Swati,E20290
+25MCA-6,Monday,12:55,13:40,lecture,25RST-706,Emerging Research Tools and Technologies,Lect-Hall-117,E1,,Ms. Winky Bhatia,E18463
+25MCA-6,Monday,13:40,14:25,lecture,25CAH-706,Backend Technologies,Lecture Hall-224,E2,A,Mr.Parveen Kumar,E20561
+25MCA-6,Monday,13:40,14:25,lecture,25CAH-705,Automation Software Testing,Multi_Lab-406,E1,B,Ms. Priyanka,E18375
+25MCA-6,Monday,14:25,15:55,lab,25CAP-702,Machine Learning Lab,Multi_Lab-415,E1,A,Ms. Kamna Priya,E18978
+25MCA-6,Tuesday,09:55,11:25,lab,25CAH-706,Backend Technologies,Multi_Lab-110,E1,A,Mr.Parveen Kumar,E20561
+25MCA-6,Tuesday,09:55,11:25,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,B,Mr. Gaurav Mehta,E14354
+25MCA-6,Tuesday,11:25,12:10,lecture,25CAP-707,Technical Training-II,Lect-Hall-113,E1,A,Dr. Bachandeep Singh Bhathal,E7981
+25MCA-6,Tuesday,12:55,14:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-111,E1,A,Ms. Kamna Priya,E18978
+25MCA-6,Tuesday,12:55,14:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-301,E1,B,Dr. Swati,E20290
+25MCA-6,Tuesday,14:25,15:55,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,A,Mr. Sachin Chawla,E6667
+25MCA-6,Tuesday,14:25,15:10,lecture,25CAP-707,Technical Training-II,Lect-Hall-113,E1,B,Dr. Bachandeep Singh Bhathal,E7981
+25MCA-6,Wednesday,09:55,11:25,lab,25CAH-706,Backend Technologies,Multi_Lab-111,E1,A,Mr.Parveen Kumar,E20561
+25MCA-6,Wednesday,09:55,11:25,lab,25CAH-705,Automation Software Testing,Multi_Lab-301,E1,B,Ms. Priyanka,E18375
+25MCA-6,Wednesday,11:25,12:10,lecture,25CAH-703,Business Analytics,Lect-Hall-113,E1,,Ms. Damanpreet Kaur,R258
+25MCA-6,Wednesday,12:55,14:25,lab,25CAH-703,Business Analytics,Multi_Lab-111,E1,A,Ms. Damanpreet Kaur,R258
+25MCA-6,Wednesday,12:55,14:25,lab,25CAP-702,Machine Learning Lab,Multi_Lab-313,E1,B,Dr. Swati,E20290
+25MCA-6,Wednesday,14:25,15:10,lecture,25CAH-708,Internet of Things,Lect-Hall-113,E1,,Mr. Sachin Chawla,E6667
+25MCA-6,Thursday,09:55,11:25,lab,25CAH-708,Internet of Things,Hardware Lab-208,E1,A,Mr. Sachin Chawla,E6667
+25MCA-6,Thursday,09:55,10:40,lecture,25CAH-705,Automation Software Testing,Lect-Hall-312,E1,B,Ms. Priyanka,E18375
+25MCA-6,Thursday,11:25,12:10,lecture,25CAT-701,Machine Learning,Lect-Hall-115,E1,,Dr. Swati,E20290
+25MCA-6,Thursday,12:55,13:40,lecture,25CAH-703,Business Analytics,Lect-Hall-117,E1,,Ms. Damanpreet Kaur,R258
+25MCA-6,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-113,E1,"A,B",Mr. Sachin Chawla / Mr. Munish Kumar,E6667;E16513
+25MCA-6,Thursday,14:25,15:10,lecture,25CAH-708,Internet of Things,Lect-Hall-113,E1,,Mr. Sachin Chawla,E6667
+25MCA-6,Thursday,15:10,15:55,lecture,25INT-701,Entrepreneurship Mindset,Lect-Hall-113,E1,,Ms. Reeti Jaswal,E13367
+25MCA-6,Friday,10:40,11:25,lecture,25CAT-701,Machine Learning,Lect-Hall-109,E1,,Dr. Swati,E20290
+25MCA-6,Friday,11:25,12:55,lab,25CAH-705,Automation Software Testing,Multi_Lab-202,E1,B,Ms. Priyanka,E18375
+25MCA-6,Friday,12:10,12:55,lecture,25CAH-706,Backend Technologies,Lecture Hall-224,E2,A,Mr.Parveen Kumar,E20561
+25MCA-6,Friday,13:40,14:25,lecture,25CAH-703,Business Analytics,Lect-Hall-113,E1,,Ms. Damanpreet Kaur,R258
+25MCA-6,Friday,14:25,15:55,lab,25CAH-703,Business Analytics,Multi_Lab-413,E1,B,Mr. Navdeep Singh Sodhi,E13472
+25MCC-101,Monday,10:40,11:25,lecture,25CAH-733,Cloud Virtualization,Lect-Hall-312,E1,,Mr Dhruv Shah,E19145
+25MCC-101,Monday,11:25,12:55,lab,25CAH-733,Cloud Virtualization,Multi_Lab-417,E1,A,Mr Dhruv Shah,E19145
+25MCC-101,Monday,13:40,14:25,lecture,25CAP-707,Technical Training-II,Multi_Lab-207,E1,A,Mr. Sanjeev Kumar,E20624
+25MCC-101,Tuesday,09:55,10:40,lecture,25CAT-737,Cloud Security,Lecture Hall-224,E2,,Ms. Manisha Nagpal,E14588
+25MCC-101,Tuesday,10:40,11:25,lecture,25CAH-734,Containerization with Docker,Lecture Hall-225,E2,,Ms. Sofia,E13216
+25MCC-101,Tuesday,12:10,12:55,lecture,25CAT-731,Devops Process Automation,Multi_Lab-411,E1,,Mr. Danish Rashid Pala,E17308
+25MCC-101,Tuesday,14:25,15:55,lab,25CAH-734,Containerization with Docker,Multi_Lab-201,E1,A,Ms. Sofia,E13216
+25MCC-101,Wednesday,09:55,10:40,lecture,25CAH-733,Cloud Virtualization,Lecture Hall-226,E2,,Mr Dhruv Shah,E19145
+25MCC-101,Wednesday,10:40,11:25,lecture,25CAT-737,Cloud Security,Lecture Hall-226,E2,,Ms. Manisha Nagpal,E14588
+25MCC-101,Wednesday,11:25,12:10,lecture,25CAT-731,Devops Process Automation,Lecture Hall-225,E2,,Mr. Danish Rashid Pala,E17308
+25MCC-101,Wednesday,12:55,14:25,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,A,Mr. Ajay,E19598
+25MCC-101,Wednesday,14:25,15:10,lecture,25CAH-734,Containerization with Docker,Lect-Hall-117,E1,,Ms. Sofia,E13216
+25MCC-101,Thursday,09:55,11:25,lab,25TDT-711,Aptitude-II,Multi_Lab-417,E1,A,Mr. Ankur Sharma,E14679
+25MCC-101,Thursday,11:25,12:55,lab,25CAH-733,Cloud Virtualization,Multi_Lab-417,E1,A,Mr Dhruv Shah,E19145
+25MCC-101,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Lect-Hall-213,E1,A,Mr Dhruv Shah,E19145
+25MCC-101,Thursday,14:25,15:55,lab,25CAP-732,Devops Process Automation Lab,Multi_Lab-111,E1,A,Ms. Amandeep Kaur,E6120
+25MCC-101,Friday,09:55,10:40,lecture,25CAH-733,Cloud Virtualization,Lecture Hall-226,E2,,Mr Dhruv Shah,E19145
+25MCC-101,Friday,10:40,11:25,lecture,25CAT-737,Cloud Security,Lecture Hall-224,E2,,Ms. Manisha Nagpal,E14588
+25MCC-101,Friday,11:25,12:10,lecture,25CAT-731,Devops Process Automation,Lecture Hall-224,E2,,Mr. Danish Rashid Pala,E17308
+25MCC-101,Friday,12:55,14:25,lab,25CAH-734,Containerization with Docker,Multi_Lab-406,E1,A,Ms. Sofia,E13216
+25MCC-101,Friday,14:25,15:55,lab,25CAP-732,Devops Process Automation Lab,Multi_Lab-313,E1,A,Ms. Amandeep Kaur,E6120
+25MCC-102,Monday,09:55,11:25,lab,25CAP-732,Devops Process Automation Lab,Multi_Lab-417,E1,A,Mr. Danish Rashid Pala,E17308
+25MCC-102,Monday,11:25,12:55,lab,25CAH-734,Containerization with Docker,Multi_Lab-401,E1,A,Ms. Sofia,E13216
+25MCC-102,Monday,13:40,14:25,lecture,25CAT-737,Cloud Security,Lect-Hall-210,E1,,Mr. Randeep,E20403
+25MCC-102,Monday,14:25,15:10,lecture,25RST-704,AI & Data-Driven Research,Lect-Hall-113,E1,A,Mr. M. Rashid,E13453
+25MCC-102,Monday,15:10,15:55,lecture,25INT-705,AI Automation & Sustainability,Lect-Hall-117,E1,A,Ms. Damanpreet Kaur,R258
+25MCC-102,Tuesday,09:55,10:40,lecture,25CAH-733,Cloud Virtualization,Multi_Lab-411,E1,,Mr Dhruv Shah,E19145
+25MCC-102,Tuesday,10:40,11:25,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-408,E1,A,Dr. Bachandeep Singh Bhathal,E7981
+25MCC-102,Tuesday,11:25,12:55,lab,25CAH-733,Cloud Virtualization,Multi_Lab-417,E1,A,Mr Dhruv Shah,E19145
+25MCC-102,Tuesday,13:40,14:25,lecture,25CAT-731,Devops Process Automation,Lect-Hall-205,E1,,Mr. Danish Rashid Pala,E17308
+25MCC-102,Tuesday,14:25,15:55,lab,25CAP-732,Devops Process Automation Lab,Multi_Lab-401,E1,A,Mr. Danish Rashid Pala,E17308
+25MCC-102,Wednesday,10:40,11:25,lecture,25CAH-733,Cloud Virtualization,Lecture Hall-224,E2,,Mr Dhruv Shah,E19145
+25MCC-102,Wednesday,11:25,12:10,lecture,25CAH-734,Containerization with Docker,Lecture Hall-224,E2,,Ms. Sofia,E13216
+25MCC-102,Wednesday,12:55,14:25,lab,25CAH-733,Cloud Virtualization,Multi_Lab-306,E1,A,Mr Dhruv Shah,E19145
+25MCC-102,Wednesday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-416,E1,A,Mr. Sharad Malhotra,E15490
+25MCC-102,Thursday,09:55,11:25,lab,25TDT-711,Aptitude-II,Multi_Lab-417,E1,A,Mr. Ankur Sharma,E14679
+25MCC-102,Thursday,11:25,12:10,lecture,25CAT-737,Cloud Security,Lect-Hall-305,E1,,Mr. Randeep,E20403
+25MCC-102,Thursday,12:10,12:55,lecture,25CAT-731,Devops Process Automation,Lect-Hall-210,E1,,Mr. Danish Rashid Pala,E17308
+25MCC-102,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Multi_Lab-413,E1,A,Dr. Rinku Sharma,E10730
+25MCC-102,Thursday,14:25,15:10,lecture,25CAH-733,Cloud Virtualization,Lect-Hall-312,E1,,Mr Dhruv Shah,E19145
+25MCC-102,Friday,10:40,11:25,lecture,25CAT-737,Cloud Security,Multi_Lab-415,E1,,Mr. Randeep,E20403
+25MCC-102,Friday,11:25,12:10,lecture,25CAH-734,Containerization with Docker,Lect-Hall-309,E1,,Ms. Sofia,E13216
+25MCC-102,Friday,13:40,14:25,lecture,25CAT-731,Devops Process Automation,Multi_Lab-417,E1,,Mr. Danish Rashid Pala,E17308
+25MCC-102,Friday,14:25,15:55,lab,25CAH-734,Containerization with Docker,Multi_Lab-411,E1,A,Ms. Sofia,E13216
+25MCD-1,Monday,09:55,10:40,lecture,25CAP-707,Technical Training-II,Lect-Hall-109,E1,A,Ms. Winky Bhatia,E18463
+25MCD-1,Monday,10:40,11:25,lecture,25CAT-743,DataVisualization,Lect-Hall-109,E1,,Ms. Harmanjot Kaur,E19510
+25MCD-1,Monday,11:25,12:55,lab,25CAH-745,Cloud Computing for Data Science,Multi_Lab-306,E1,A,Dr. Ashaq Hussain Bhat,E17059
+25MCD-1,Monday,11:25,12:55,lab,25CAH-741,Data Mining and Warehousing,Multi_Lab-206,E1,B,Dr. Deeksha Baweja,E12115
+25MCD-1,Monday,14:25,15:10,lecture,25RST-704,AI & Data-Driven Research,Lect-Hall-113,E1,B,Mr. M. Rashid,E13453
+25MCD-1,Monday,15:10,15:55,lecture,25INT-705,AI Automation & Sustainability,Lect-Hall-117,E1,B,Ms. Damanpreet Kaur,R258
+25MCD-1,Tuesday,09:55,11:25,lab,25CAH-741,Data Mining and Warehousing,Multi_Lab-301,E1,A,Dr. Deeksha Baweja,E12115
+25MCD-1,Tuesday,09:55,11:25,lab,25CAP-744,DataVisualization Lab,Multi_Lab-306,E1,B,Ms. Harmanjot Kaur,E19510
+25MCD-1,Tuesday,11:25,12:10,lecture,25CAH-745,Cloud Computing for Data Science,Lect-Hall-210,E1,,Dr. Ashaq Hussain Bhat,E17059
+25MCD-1,Tuesday,12:10,12:55,lecture,25CAT-743,DataVisualization,Lect-Hall-109,E1,,Ms. Harmanjot Kaur,E19510
+25MCD-1,Tuesday,13:40,14:25,lecture,25CAH-742,Generative AI,Lect-Hall-210,E1,,Ms. Harjeet Kaur,E20036
+25MCD-1,Tuesday,14:25,15:10,lecture,25CAH-745,Cloud Computing for Data Science,Lect-Hall-205,E1,,Dr. Ashaq Hussain Bhat,E17059
+25MCD-1,Wednesday,09:55,10:40,lecture,25CAH-741,Data Mining and Warehousing,Lect-Hall-312,E1,,Dr. Deeksha Baweja,E12115
+25MCD-1,Wednesday,10:40,11:25,lecture,25CAP-707,Technical Training-II,SoftSkills Lab-403,E1,B,Mr. Sanjeev Kumar,E20624
+25MCD-1,Wednesday,11:25,12:10,lecture,25CAT-743,DataVisualization,Lecture Hall-226,E2,,Ms. Harmanjot Kaur,E19510
+25MCD-1,Wednesday,12:55,14:25,lab,25CAH-742,Generative AI,Multi_Lab-202,E1,A,Ms. Harjeet Kaur,E20036
+25MCD-1,Wednesday,12:55,14:25,lab,25CAH-745,Cloud Computing for Data Science,Multi_Lab-110,E1,B,Dr. Ashaq Hussain Bhat,E17059
+25MCD-1,Wednesday,14:25,15:55,lab,25CAP-744,DataVisualization Lab,Multi_Lab-302,E1,A,Ms. Harmanjot Kaur,E19510
+25MCD-1,Wednesday,14:25,15:55,lab,25CAH-742,Generative AI,Multi_Lab-306,E1,B,Ms. Harjeet Kaur,E20036
+25MCD-1,Thursday,09:55,10:40,lecture,25CAH-745,Cloud Computing for Data Science,Lect-Hall-305,E1,,Dr. Ashaq Hussain Bhat,E17059
+25MCD-1,Thursday,10:40,11:25,lecture,25CAH-741,Data Mining and Warehousing,Lect-Hall-210,E1,,Dr. Deeksha Baweja,E12115
+25MCD-1,Thursday,11:25,12:55,lab,25CAH-741,Data Mining and Warehousing,Multi_Lab-411,E1,A,Dr. Deeksha Baweja,E12115
+25MCD-1,Thursday,11:25,12:55,lab,25CAH-742,Generative AI,Multi_Lab-413,E1,B,Ms. Harjeet Kaur,E20036
+25MCD-1,Thursday,13:40,14:25,lecture,25CAR-710,Minor Project,Multi_Lab-401,E1,"A,B",Ms. Priyanka / Ms. Gurpreet Kaur,E18375;E14273
+25MCD-1,Thursday,14:25,15:55,lab,25CAH-742,Generative AI,Multi_Lab-302,E1,A,Ms. Harjeet Kaur,E20036
+25MCD-1,Thursday,14:25,15:55,lab,25CAP-744,DataVisualization Lab,Multi_Lab-215,E1,B,Ms. Harmanjot Kaur,E19510
+25MCD-1,Friday,09:55,11:25,lab,25TDT-711,Aptitude-II,Lect-Hall-312,E1,,Mr. Ankur Sharma,E14679
+25MCD-1,Friday,11:25,12:10,lecture,25CAH-742,Generative AI,Multi_Lab-401,E1,,Ms. Harjeet Kaur,E20036
+25MCD-1,Friday,12:55,14:25,lab,25CAP-744,DataVisualization Lab,Multi_Lab-302,E1,A,Ms. Harmanjot Kaur,E19510
+25MCD-1,Friday,12:55,14:25,lab,25CAH-741,Data Mining and Warehousing,Multi_Lab-306,E1,B,Dr. Deeksha Baweja,E12115
+25MCD-1,Friday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-407,E1,A,Mr. Sharad Malhotra,E15490
+25MCD-1,Friday,14:25,15:55,lab,25TDP-710,Soft Skills-II,SoftSkills Lab-408,E1,B,Ms. Simran,E11678
+26MAM-1,Monday,09:55,10:40,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-113,E1,,Dr.Amit Gangwar,E20334
+26MAM-1,Monday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-305,E1,,Ms. Shruti,E13567
+26MAM-1,Monday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-201,E1,A,Er. Prabhjot Kaur,E17274
+26MAM-1,Monday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-202,E1,B,Ms. Deepali Saini,E12444
+26MAM-1,Monday,13:40,14:25,lecture,26CAH-606,Python Programming,Lecture Hall-225,E2,,Mr. Ajay Yadav,E13382
+26MAM-1,Monday,14:25,15:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lecture Hall-225,E2,,Mr. Sobit Rehan,E16168
+26MAM-1,Tuesday,09:55,10:40,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-117,E1,,Dr.Amit Gangwar,E20334
+26MAM-1,Tuesday,10:40,11:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-305,E1,,Mr. Sobit Rehan,E16168
+26MAM-1,Tuesday,12:10,12:55,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-205,E1,,Ms. Shruti,E13567
+26MAM-1,Tuesday,14:25,15:55,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-411,E1,"A,B",Ms. Gurpreet Kaur / Mr. Shivam Ojha,E15615;E20570
+26MAM-1,Wednesday,09:55,10:40,lecture,26CAH-614,Advanced Internet Programming,Lecture Hall-225,E2,,Ms. Gurpreet Kaur,E15615
+26MAM-1,Wednesday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Multi_Lab-417,E1,,Ms. Shruti,E13567
+26MAM-1,Wednesday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-413,E1,A,Mr. Sobit Rehan,E16168
+26MAM-1,Wednesday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-201,E1,B,Dr. Kawaljit Kaur,E6621
+26MAM-1,Thursday,10:40,11:25,lecture,26CAH-606,Python Programming,Lect-Hall-312,E1,,Mr. Ajay Yadav,E13382
+26MAM-1,Thursday,11:25,12:10,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-312,E1,,Dr.Amit Gangwar,E20334
+26MAM-1,Thursday,12:55,13:40,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-113,E1,,Mr. Sobit Rehan,E16168
+26MAM-1,Friday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-307,E1,A,Er. Prabhjot Kaur,E17274
+26MAM-1,Friday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-207,E1,B,Ms. Deepali Saini,E12444
+26MAM-1,Friday,11:25,12:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-206,E1,A,Mr. Sobit Rehan,E16168
+26MAM-1,Friday,11:25,12:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-313,E1,B,Dr. Kawaljit Kaur,E6621
+26MAM-1,Friday,13:40,14:25,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-213,E1,,Ms. Gurpreet Kaur,E15615
+26MAM-1,Friday,14:25,15:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-406,E1,"A,B",Ms. Shruti / Mr. Rishabh Tomar,E13567;E15752
+26MAM-2,Monday,09:55,11:25,lab,26CAP-602,PL/SQL Lab,Multi_Lab-406,E1,"A,B",Mr. Arshid Ahmad Wani / Mr. Chanchal Sharma,E15587;R303
+26MAM-2,Monday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-202,E1,A,Dr. Kawaljit Kaur,E6621
+26MAM-2,Monday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-307,E1,B,Dr. Rajan Saluja,E15748
+26MAM-2,Monday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-417,E1,B,Ms. Palwinder Kaur Mangat,E9422
+26MAM-2,Tuesday,10:40,11:25,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-115,E1,,Ms. Gurpreet Kaur,E15615
+26MAM-2,Tuesday,11:25,12:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-207,E1,A,Dr. Kawaljit Kaur,E6621
+26MAM-2,Tuesday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-206,E1,B,Ms. Palwinder Kaur Mangat,E9422
+26MAM-2,Tuesday,13:40,14:25,lecture,26CAH-606,Python Programming,Multi_Lab-411,E1,,Mr. Ajay Yadav,E13382
+26MAM-2,Tuesday,14:25,15:10,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-213,E1,,Dr.Amit Gangwar,E20334
+26MAM-2,Wednesday,09:55,10:40,lecture,26CAH-606,Python Programming,Multi_Lab-415,E1,,Mr. Ajay Yadav,E13382
+26MAM-2,Wednesday,10:40,11:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-213,E1,,Dr. Kawaljit Kaur,E6621
+26MAM-2,Wednesday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-213,E1,,Mr. Arshid Ahmad Wani,E15587
+26MAM-2,Wednesday,12:55,13:40,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-213,E1,,Dr.Amit Gangwar,E20334
+26MAM-2,Thursday,09:55,10:40,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-117,E1,,Ms. Gurpreet Kaur,E15615
+26MAM-2,Thursday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-210,E1,,Mr. Arshid Ahmad Wani,E15587
+26MAM-2,Thursday,12:10,12:55,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-312,E1,,Dr.Amit Gangwar,E20334
+26MAM-2,Thursday,13:40,14:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-309,E1,,Dr. Kawaljit Kaur,E6621
+26MAM-2,Thursday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-301,E1,A,Mr. Ajay Yadav,E13382
+26MAM-2,Friday,09:55,10:40,lecture,26CAT-611,Design and Analysis of Algorithms,Multi_Lab-415,E1,,Dr. Kawaljit Kaur,E6621
+26MAM-2,Friday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-411,E1,A,Mr. Ajay Yadav,E13382
+26MAM-2,Friday,11:25,12:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-307,E1,B,Dr. Rajan Saluja,E15748
+26MAM-2,Friday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-205,E1,,Mr. Arshid Ahmad Wani,E15587
+26MAM-2,Friday,14:25,15:55,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-215,E1,"A,B",Ms. Gurpreet Kaur / Mr. Shivam Ojha,E15615;E20570
+26MAM-3,Monday,09:55,10:40,lecture,26CAH-614,Advanced Internet Programming,Multi_Lab-415,E1,,Mr. Shivam Ojha,E20570
+26MAM-3,Monday,11:25,12:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-305,E1,,Mr. Shubham Sharma,E20414
+26MAM-3,Monday,12:55,13:40,lecture,26CAT-613,Mathematical Foundations for AI,Multi_Lab-406,E1,,Dr.Amit Gangwar,E20334
+26MAM-3,Tuesday,09:55,10:40,lecture,26CAT-611,Design and Analysis of Algorithms,Lecture Hall-226,E2,,Mr. Shubham Sharma,E20414
+26MAM-3,Tuesday,10:40,11:25,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-309,E1,,Mr. Shivam Ojha,E20570
+26MAM-3,Tuesday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-309,E1,,Mr. Arshid Ahmad Wani,E15587
+26MAM-3,Tuesday,12:55,13:40,lecture,26CAH-606,Python Programming,Lect-Hall-109,E1,,Ms. Harmanjot Kaur,E19510
+26MAM-3,Tuesday,13:40,14:25,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-117,E1,,Dr.Amit Gangwar,E20334
+26MAM-3,Tuesday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-206,E1,A,Mr. Shubham Sharma,E20414
+26MAM-3,Tuesday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-110,E1,B,Ms. Gurpreet Kaur,E14273
+26MAM-3,Wednesday,09:55,11:25,lab,26CAP-602,PL/SQL Lab,Multi_Lab-313,E1,"A,B",Mr. Arshid Ahmad Wani / Mr. Chanchal Sharma,E15587;R303
+26MAM-3,Wednesday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-207,E1,A,Ms. Harmanjot Kaur,E19510
+26MAM-3,Wednesday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-307,E1,B,Ms. Gurpreet Kaur,E14273
+26MAM-3,Thursday,09:55,10:40,lecture,26CAT-613,Mathematical Foundations for AI,Lecture Hall-226,E2,,Dr.Amit Gangwar,E20334
+26MAM-3,Thursday,11:25,12:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-307,E1,A,Mr. Shubham Sharma,E20414
+26MAM-3,Thursday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-201,E1,B,Mr. Ajay Yadav,E13382
+26MAM-3,Thursday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Lecture Hall-225,E2,,Mr. Arshid Ahmad Wani,E15587
+26MAM-3,Friday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-215,E1,A,Ms. Harmanjot Kaur,E19510
+26MAM-3,Friday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-301,E1,B,Mr. Ajay Yadav,E13382
+26MAM-3,Friday,11:25,12:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-117,E1,,Mr. Shubham Sharma,E20414
+26MAM-3,Friday,12:55,14:25,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-313,E1,"A,B",Mr. Shivam Ojha / Ms. Shruti,E20570;E13567
+26MAM-3,Friday,14:25,15:10,lecture,26CAH-606,Python Programming,Lect-Hall-115,E1,,Ms. Harmanjot Kaur,E19510
+26MAM-3,Friday,15:10,15:55,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-113,E1,,Mr. Arshid Ahmad Wani,E15587
+26MAM-4,Monday,10:40,11:25,lecture,26CAT-611,Design and Analysis of Algorithms,Multi_Lab-411,E1,,Dr. Gagandeep Kaur,E12617
+26MAM-4,Monday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-109,E1,,Dr. Mandeep Singh,E8730
+26MAM-4,Monday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-301,E1,A,Ms. Gurpreet Kaur,E15615
+26MAM-4,Monday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-302,E1,B,Ms. Gurpreet Kaur,E14273
+26MAM-4,Monday,14:25,15:55,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-215,E1,"A,B",Ms. Shruti / Mr. Shivam Ojha,E13567;E20570
+26MAM-4,Tuesday,09:55,10:40,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-213,E1,,Ms. Shruti,E13567
+26MAM-4,Tuesday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Multi_Lab-411,E1,,Dr. Mandeep Singh,E8730
+26MAM-4,Tuesday,11:25,12:10,lecture,26CAT-613,Mathematical Foundations for AI,Multi_Lab-215,E1,,Dr.Amit Gangwar,E20334
+26MAM-4,Tuesday,12:55,14:25,lab,26CAP-602,PL/SQL Lab,Multi_Lab-401,E1,"A,B",Ms. Indu Sharma / Dr. Mandeep Singh,E15037;E8730
+26MAM-4,Tuesday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-413,E1,B,Mr. Sanjeev Kumar,E20624
+26MAM-4,Wednesday,09:55,10:40,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-115,E1,,Ms. Shruti,E13567
+26MAM-4,Wednesday,10:40,11:25,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-305,E1,,Dr.Amit Gangwar,E20334
+26MAM-4,Wednesday,11:25,12:10,lecture,26CAH-606,Python Programming,Lect-Hall-312,E1,,Mr. M. Rashid,E13453
+26MAM-4,Wednesday,12:55,13:40,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-312,E1,,Dr. Gagandeep Kaur,E12617
+26MAM-4,Wednesday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-417,E1,A,Dr. Gagandeep Kaur,E12617
+26MAM-4,Thursday,10:40,11:25,lecture,26CAH-606,Python Programming,Multi_Lab-401,E1,,Mr. M. Rashid,E13453
+26MAM-4,Thursday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-306,E1,A,Ms. Gurpreet Kaur,E15615
+26MAM-4,Thursday,11:25,12:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-206,E1,B,Ms. Gurpreet Kaur,E14273
+26MAM-4,Thursday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-206,E1,A,Dr. Gagandeep Kaur,E12617
+26MAM-4,Thursday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-313,E1,B,Mr. Sanjeev Kumar,E20624
+26MAM-4,Friday,09:55,10:40,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-305,E1,,Dr. Mandeep Singh,E8730
+26MAM-4,Friday,10:40,11:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-210,E1,,Dr. Gagandeep Kaur,E12617
+26MAM-4,Friday,11:25,12:10,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-113,E1,,Dr.Amit Gangwar,E20334
+26MAM-5,Monday,09:55,11:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-202,E1,A,Mr. Shubham Sharma,E20414
+26MAM-5,Monday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-307,E1,B,Dr. Sarabjeet Kaur,E14554
+26MAM-5,Monday,11:25,12:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-312,E1,,Dr. Rinku Sharma,E10730
+26MAM-5,Monday,12:10,12:55,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-312,E1,,Ms. Shruti,E13567
+26MAM-5,Monday,13:40,14:25,lecture,26CAT-613,Mathematical Foundations for AI,Multi_Lab-417,E1,,Dr.Amit Gangwar,E20334
+26MAM-5,Monday,14:25,15:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-411,E1,"A,B",Mr. Chanchal Sharma / Ms. Amandeep Kaur,R303;E6120
+26MAM-5,Tuesday,09:55,10:40,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-309,E1,,Ms. Tanisha,E20679
+26MAM-5,Tuesday,10:40,11:25,lecture,26CAH-606,Python Programming,Lect-Hall-205,E1,,Dr. Amanpreet Kaur Sandhu,E9962
+26MAM-5,Tuesday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-202,E1,A,Dr. Amanpreet Kaur Sandhu,E9962
+26MAM-5,Tuesday,11:25,12:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-301,E1,B,Mr. Shubham Sharma,E20414
+26MAM-5,Wednesday,09:55,10:40,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-205,E1,,Dr. Rinku Sharma,E10730
+26MAM-5,Wednesday,10:40,11:25,lecture,26CAH-606,Python Programming,Lect-Hall-113,E1,,Dr. Amanpreet Kaur Sandhu,E9962
+26MAM-5,Wednesday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-111,E1,A,Dr. Amanpreet Kaur Sandhu,E9962
+26MAM-5,Wednesday,11:25,12:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-401,E1,B,Mr. Shubham Sharma,E20414
+26MAM-5,Wednesday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Multi_Lab-406,E1,,Ms. Tanisha,E20679
+26MAM-5,Wednesday,14:25,15:10,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-312,E1,,Dr.Amit Gangwar,E20334
+26MAM-5,Thursday,10:40,11:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-305,E1,,Dr. Rinku Sharma,E10730
+26MAM-5,Thursday,11:25,12:55,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-313,E1,"A,B",Ms. Shruti / Mr. Shivam Ojha,E13567;E20570
+26MAM-5,Thursday,13:40,14:25,lecture,26CAH-614,Advanced Internet Programming,Multi_Lab-215,E1,,Ms. Shruti,E13567
+26MAM-5,Friday,09:55,11:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-417,E1,A,Mr. Shubham Sharma,E20414
+26MAM-5,Friday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-110,E1,B,Dr. Sarabjeet Kaur,E14554
+26MAM-5,Friday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-305,E1,,Ms. Tanisha,E20679
+26MAM-5,Friday,12:55,13:40,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-109,E1,,Dr.Amit Gangwar,E20334
+26MAM-6,Monday,09:55,10:40,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-117,E1,,Mr. Rishabh Tomar,E15752
+26MAM-6,Monday,10:40,11:25,lecture,26CAH-606,Python Programming,Lect-Hall-205,E1,,Mr. Sanjeev Kumar,E20624
+26MAM-6,Monday,11:25,12:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-213,E1,,Mr.Rithik,E20677
+26MAM-6,Monday,12:55,14:25,lab,26CAP-602,PL/SQL Lab,Multi_Lab-401,E1,A,Mr. Rishabh Tomar,E15752
+26MAM-6,Tuesday,09:55,10:40,lecture,26CAH-606,Python Programming,Lect-Hall-210,E1,,Mr. Sanjeev Kumar,E20624
+26MAM-6,Tuesday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lecture Hall-226,E2,,Mr. Rishabh Tomar,E15752
+26MAM-6,Tuesday,12:10,12:55,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-115,E1,,Dr.Amit Gangwar,E20334
+26MAM-6,Wednesday,09:55,10:40,lecture,26CAT-613,Mathematical Foundations for AI,Lect-Hall-117,E1,,Dr.Amit Gangwar,E20334
+26MAM-6,Wednesday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-115,E1,,Mr. Rishabh Tomar,E15752
+26MAM-6,Wednesday,12:55,13:40,lecture,26CAH-614,Advanced Internet Programming,Lecture Hall-224,E2,,Ms. Ruchika Devi,E10474
+26MAM-6,Wednesday,13:40,14:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lecture Hall-224,E2,,Mr.Rithik,E20677
+26MAM-6,Wednesday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-207,E1,A,Mr.Rithik,E20677
+26MAM-6,Thursday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-201,E1,A,Mr. Sanjeev Kumar,E20624
+26MAM-6,Thursday,12:10,12:55,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-113,E1,,Mr.Rithik,E20677
+26MAM-6,Thursday,13:40,14:25,lecture,26CAT-613,Mathematical Foundations for AI,Lecture Hall-226,E2,,Dr.Amit Gangwar,E20334
+26MAM-6,Friday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-201,E1,A,Mr. Sanjeev Kumar,E20624
+26MAM-6,Friday,11:25,12:10,lecture,26CAH-614,Advanced Internet Programming,Lecture Hall-225,E2,,Ms. Ruchika Devi,E10474
+26MAM-6,Friday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-207,E1,A,Mr.Rithik,E20677
+26MAM-6,Friday,14:25,15:55,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-417,E1,A,Ms. Ruchika Devi,E10474
+26MCA-1,Monday,09:55,11:25,lab,26CAP-608,Artificial Intelligence Tools,Multi_Lab-401,E1,"A,B",Dr. Nisha Sharma / Mr. Munish Kumar,E2915;E16513
+26MCA-1,Monday,12:10,12:55,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-113,E1,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-1,Monday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-213,E1,,Mr. Sobit Rehan,E16168
+26MCA-1,Tuesday,09:55,11:25,lab,26CAP-605,Web Programming Lab,Multi_Lab-202,E1,A,Ms. Mansirat Kaur,E5399
+26MCA-1,Tuesday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-201,E1,B,Mr. Randeep,E20403
+26MCA-1,Tuesday,11:25,12:10,lecture,26CAT-604,Web Programming,Lect-Hall-205,E1,,Ms. Mansirat Kaur,E5399
+26MCA-1,Tuesday,12:55,14:25,lab,26CAP-607,Computing Aptitude,Multi_Lab-406,E1,"A,B",Ms. Divyanshi Sharma / Mr. Arshid Ahmad Wani,E17438;E15587
+26MCA-1,Tuesday,14:25,15:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-406,E1,"A,B",Mr. Sobit Rehan / Ms. Shruti,E16168;E13567
+26MCA-1,Wednesday,09:55,10:40,lecture,26CAH-606,Python Programming,Lect-Hall-113,E1,,Ms. Palwinder Kaur Mangat,E9422
+26MCA-1,Wednesday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-306,E1,A,Ms. Palwinder Kaur Mangat,E9422
+26MCA-1,Wednesday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-307,E1,B,Ms. Winky Bhatia,E18463
+26MCA-1,Wednesday,13:40,14:25,lecture,26CAT-603,Advanced Computer Networks,Lecture Hall-226,E2,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-1,Wednesday,14:25,15:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-205,E1,,Mr. Sobit Rehan,E16168
+26MCA-1,Thursday,09:55,11:25,lab,26CAP-607,Computing Aptitude,Multi_Lab-406,E1,"A,B",Ms. Divyanshi Sharma / Mr. Arshid Ahmad Wani,E17438;E15587
+26MCA-1,Thursday,11:25,12:10,lecture,26CAT-604,Web Programming,Multi_Lab-401,E1,,Ms. Mansirat Kaur,E5399
+26MCA-1,Thursday,12:55,13:40,lecture,26CAT-603,Advanced Computer Networks,Multi_Lab-406,E1,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-1,Thursday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Multi_Lab-406,E1,,Mr. Sobit Rehan,E16168
+26MCA-1,Thursday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-406,E1,A,Ms. Palwinder Kaur Mangat,E9422
+26MCA-1,Friday,09:55,10:40,lecture,26CAH-606,Python Programming,Lect-Hall-213,E1,,Ms. Palwinder Kaur Mangat,E9422
+26MCA-1,Friday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-110,E1,A,Ms. Mansirat Kaur,E5399
+26MCA-1,Friday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-201,E1,B,Mr. Randeep,E20403
+26MCA-1,Friday,13:40,14:25,lecture,26CAT-604,Web Programming,Lect-Hall-312,E1,,Ms. Mansirat Kaur,E5399
+26MCA-1,Friday,14:25,15:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-207,E1,B,Ms. Winky Bhatia,E18463
+26MCA-2,Monday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-302,E1,B,Mr. Randeep,E20403
+26MCA-2,Monday,11:25,12:55,lab,26CAP-608,Artificial Intelligence Tools,Multi_Lab-313,E1,"A,B",Dr. Disha Handa / Dr. Nisha Sharma,E11162;E2915
+26MCA-2,Monday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-301,E1,A,Dr. Gagandeep Kaur,E12617
+26MCA-2,Tuesday,09:55,11:25,lab,26CAP-607,Computing Aptitude,Multi_Lab-215,E1,"A,B",Ms. Divyanshi Sharma / Mr. Arshid Ahmad Wani,E17438;E15587
+26MCA-2,Tuesday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-115,E1,,Dr. Mandeep Singh,E8730
+26MCA-2,Tuesday,12:10,12:55,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-309,E1,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-2,Tuesday,13:40,14:25,lecture,26CAT-604,Web Programming,Lect-Hall-309,E1,,Ms. Saranjeet,E7910
+26MCA-2,Wednesday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-206,E1,A,Dr. Gagandeep Kaur,E12617
+26MCA-2,Wednesday,09:55,11:25,lab,26CAP-605,Web Programming Lab,Multi_Lab-202,E1,B,Ms. Winky Bhatia,E18463
+26MCA-2,Wednesday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-207,E1,A,Ms. Saranjeet,E7910
+26MCA-2,Wednesday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-411,E1,B,Mr. Randeep,E20403
+26MCA-2,Wednesday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Multi_Lab-401,E1,,Dr. Mandeep Singh,E8730
+26MCA-2,Wednesday,14:25,15:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-313,E1,"A,B",Dr. Deeksha Baweja / Mr. Chanchal Sharma,E12115;R303
+26MCA-2,Thursday,09:55,10:40,lecture,26CAH-606,Python Programming,Lect-Hall-213,E1,,Dr. Gagandeep Kaur,E12617
+26MCA-2,Thursday,10:40,11:25,lecture,26CAT-604,Web Programming,Lect-Hall-309,E1,,Ms. Saranjeet,E7910
+26MCA-2,Thursday,11:25,12:10,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-205,E1,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-2,Thursday,12:55,14:25,lab,26CAP-605,Web Programming Lab,Multi_Lab-202,E1,A,Ms. Saranjeet,E7910
+26MCA-2,Thursday,12:55,14:25,lab,26CAP-605,Web Programming Lab,Multi_Lab-307,E1,B,Ms. Winky Bhatia,E18463
+26MCA-2,Friday,09:55,11:25,lab,26CAP-607,Computing Aptitude,Multi_Lab-313,E1,"A,B",Ms. Divyanshi Sharma / Mr. Arshid Ahmad Wani,E17438;E15587
+26MCA-2,Friday,12:10,12:55,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-113,E1,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-2,Friday,13:40,14:25,lecture,26CAT-604,Web Programming,Lect-Hall-115,E1,,Ms. Saranjeet,E7910
+26MCA-2,Friday,14:25,15:10,lecture,26CAH-606,Python Programming,Lect-Hall-210,E1,,Dr. Gagandeep Kaur,E12617
+26MCA-2,Friday,15:10,15:55,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-210,E1,,Dr. Mandeep Singh,E8730
+26MCA-3,Monday,09:55,10:40,lecture,26CAH-606,Python Programming,Lect-Hall-309,E1,,Ms. Deepali Saini,E12444
+26MCA-3,Monday,10:40,11:25,lecture,26CAT-604,Web Programming,Lect-Hall-210,E1,,Ms. Saranjeet,E7910
+26MCA-3,Monday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-301,E1,A,Ms. Saranjeet,E7910
+26MCA-3,Monday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-207,E1,B,Ms. Palwinder Kaur Mangat,E9422
+26MCA-3,Monday,14:25,15:55,lab,26CAP-607,Computing Aptitude,Multi_Lab-413,E1,"A,B",Mr.Rithik / Ms. Ashima,E20677;R296
+26MCA-3,Tuesday,09:55,10:40,lecture,26CAT-604,Web Programming,Lect-Hall-115,E1,,Ms. Saranjeet,E7910
+26MCA-3,Tuesday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-113,E1,,Ms. Tanisha,E20679
+26MCA-3,Tuesday,11:25,12:55,lab,26CAP-608,Artificial Intelligence Tools,Multi_Lab-313,E1,"A,B",Dr. Nisha Sharma / Ms. Priyanka,E2915;E18375
+26MCA-3,Tuesday,13:40,14:25,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-305,E1,,Mr. Rishabh Tomar,E15752
+26MCA-3,Tuesday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-111,E1,B,Mr. Ajay Yadav,E13382
+26MCA-3,Wednesday,09:55,10:40,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-305,E1,,Ms. Tanisha,E20679
+26MCA-3,Wednesday,10:40,11:25,lecture,26CAT-604,Web Programming,Multi_Lab-415,E1,,Ms. Saranjeet,E7910
+26MCA-3,Wednesday,11:25,12:10,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-309,E1,,Mr. Rishabh Tomar,E15752
+26MCA-3,Wednesday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-302,E1,A,Ms. Deepali Saini,E12444
+26MCA-3,Wednesday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-215,E1,B,Mr. Ajay Yadav,E13382
+26MCA-3,Wednesday,14:25,15:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-406,E1,"A,B",Ms. Tanisha / Ms. Indu Sharma,E20679;E15037
+26MCA-3,Thursday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-307,E1,A,Ms. Deepali Saini,E12444
+26MCA-3,Thursday,09:55,11:25,lab,26CAP-605,Web Programming Lab,Multi_Lab-206,E1,B,Ms. Palwinder Kaur Mangat,E9422
+26MCA-3,Thursday,12:55,14:25,lab,26CAP-607,Computing Aptitude,Multi_Lab-411,E1,"A,B",Mr.Rithik / Ms. Ashima,E20677;R296
+26MCA-3,Friday,09:55,11:25,lab,26CAP-605,Web Programming Lab,Multi_Lab-111,E1,A,Ms. Saranjeet,E7910
+26MCA-3,Friday,11:25,12:10,lecture,26CAT-603,Advanced Computer Networks,Lecture Hall-226,E2,,Mr. Rishabh Tomar,E15752
+26MCA-3,Friday,12:55,13:40,lecture,26CAH-606,Python Programming,Lect-Hall-309,E1,,Ms. Deepali Saini,E12444
+26MCA-3,Friday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-210,E1,,Ms. Tanisha,E20679
+26MCA-4,Monday,09:55,10:40,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-305,E1,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-4,Monday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-309,E1,,Mr. M. Rashid,E13453
+26MCA-4,Monday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-302,E1,A,Ms. Payal Sharma,E13636
+26MCA-4,Monday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-307,E1,B,Ms. Mansirat Kaur,E5399
+26MCA-4,Monday,13:40,14:25,lecture,26CAT-604,Web Programming,Multi_Lab-415,E1,,Ms. Saranjeet,E7910
+26MCA-4,Monday,14:25,15:10,lecture,26CAH-606,Python Programming,Lect-Hall-210,E1,,Mr. Randeep,E20403
+26MCA-4,Tuesday,10:40,11:25,lecture,26CAT-604,Web Programming,Lect-Hall-312,E1,,Ms. Saranjeet,E7910
+26MCA-4,Tuesday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-302,E1,A,Ms. Payal Sharma,E13636
+26MCA-4,Tuesday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-307,E1,B,Ms. Gurpreet Kaur,E15615
+26MCA-4,Tuesday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Multi_Lab-413,E1,,Mr. M. Rashid,E13453
+26MCA-4,Tuesday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-215,E1,A,Mr. Randeep,E20403
+26MCA-4,Wednesday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-406,E1,A,Mr. Randeep,E20403
+26MCA-4,Wednesday,09:55,11:25,lab,26CAP-605,Web Programming Lab,Multi_Lab-413,E1,B,Ms. Mansirat Kaur,E5399
+26MCA-4,Wednesday,11:25,12:55,lab,26CAP-608,Artificial Intelligence Tools,Multi_Lab-415,E1,"A,B",Dr. Disha Handa / Mr. Munish Kumar,E11162;E16513
+26MCA-4,Wednesday,13:40,14:25,lecture,26CAT-604,Web Programming,Multi_Lab-411,E1,,Ms. Saranjeet,E7910
+26MCA-4,Wednesday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-301,E1,B,Ms. Gurpreet Kaur,E15615
+26MCA-4,Thursday,09:55,10:40,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-210,E1,,Mr. M. Rashid,E13453
+26MCA-4,Thursday,10:40,11:25,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-205,E1,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-4,Thursday,11:25,12:55,lab,26CAP-607,Computing Aptitude,Multi_Lab-215,E1,"A,B",Mr. Munish Kumar / Ms. Ashima,E16513;R296
+26MCA-4,Thursday,14:25,15:10,lecture,26CAH-606,Python Programming,Lect-Hall-210,E1,,Mr. Randeep,E20403
+26MCA-4,Friday,09:55,11:25,lab,26CAP-602,PL/SQL Lab,Multi_Lab-411,E1,"A,B",Mr. M. Rashid / Mr. Chanchal Sharma,E13453;R303
+26MCA-4,Friday,11:25,12:55,lab,26CAP-607,Computing Aptitude,Multi_Lab-413,E1,"A,B",Mr. Munish Kumar / Ms. Ashima,E16513;R296
+26MCA-4,Friday,13:40,14:25,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-309,E1,,Mr. Navdeep Singh Sodhi,E13472
+26MCA-5,Monday,10:40,11:25,lecture,26CAT-603,Advanced Computer Networks,Lecture Hall-225,E2,,Mr. Rishabh Tomar,E15752
+26MCA-5,Monday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-115,E1,,Mr. M. Rashid,E13453
+26MCA-5,Monday,12:55,14:25,lab,26CAP-607,Computing Aptitude,Multi_Lab-215,E1,A,Mr. Munish Kumar,E16513
+26MCA-5,Tuesday,09:55,10:40,lecture,26CAT-603,Advanced Computer Networks,Lect-Hall-305,E1,,Mr. Rishabh Tomar,E15752
+26MCA-5,Tuesday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-213,E1,,Mr. M. Rashid,E13453
+26MCA-5,Tuesday,11:25,12:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-201,E1,A,Mr. M. Rashid,E13453
+26MCA-5,Tuesday,13:40,14:25,lecture,26CAT-604,Web Programming,Lect-Hall-115,E1,,Ms. Payal Sharma,E13636
+26MCA-5,Tuesday,14:25,15:55,lab,26CAP-608,Artificial Intelligence Tools,Multi_Lab-415,E1,A,Dr. Nisha Sharma,E2915
+26MCA-5,Wednesday,10:40,11:25,lecture,26CAH-606,Python Programming,Lect-Hall-117,E1,,Mr. M. Rashid,E13453
+26MCA-5,Wednesday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-302,E1,A,Ms. Payal Sharma,E13636
+26MCA-5,Wednesday,13:40,14:25,lecture,26CAT-604,Web Programming,Lect-Hall-115,E1,,Ms. Payal Sharma,E13636
+26MCA-5,Wednesday,14:25,15:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-115,E1,,Mr. M. Rashid,E13453
+26MCA-5,Thursday,10:40,11:25,lecture,26CAT-604,Web Programming,Lect-Hall-115,E1,,Ms. Payal Sharma,E13636
+26MCA-5,Thursday,11:25,12:10,lecture,26CAT-603,Advanced Computer Networks,Lecture Hall-225,E2,,Mr. Rishabh Tomar,E15752
+26MCA-5,Thursday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-111,E1,A,Mr. M. Rashid,E13453
+26MCA-5,Friday,09:55,11:25,lab,26CAP-607,Computing Aptitude,Multi_Lab-406,E1,A,Mr. Munish Kumar,E16513
+26MCA-5,Friday,11:25,12:55,lab,26CAP-605,Web Programming Lab,Multi_Lab-302,E1,A,Ms. Payal Sharma,E13636
+26MCA-5,Friday,13:40,14:25,lecture,26CAH-606,Python Programming,Lect-Hall-305,E1,,Mr. M. Rashid,E13453
+26MCA-5,Friday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-111,E1,A,Mr. M. Rashid,E13453
+26MCC-101,Monday,09:55,10:40,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-210,E1,,Ms. Ruchika Devi,E10474
+26MCC-101,Monday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Multi_Lab-415,E1,,Ms. Tanisha,E20679
+26MCC-101,Monday,11:25,12:55,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-411,E1,A,Ms. Ruchika Devi,E10474
+26MCC-101,Monday,13:40,14:25,lecture,26CAT-621,High Performance Computing,Lect-Hall-205,E1,,Mr Dhruv Shah,E19145
+26MCC-101,Tuesday,09:55,11:25,lab,26CAP-622,Linux Administration Lab,Multi_Lab-415,E1,A,Mr. Ajay Yadav,E13382
+26MCC-101,Tuesday,11:25,12:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-109,E1,,Dr. Rajan Saluja,E15748
+26MCC-101,Tuesday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-415,E1,A,Dr. Rajan Saluja,E15748
+26MCC-101,Tuesday,14:25,15:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-115,E1,,Ms. Tanisha,E20679
+26MCC-101,Wednesday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-215,E1,,Dr. Nisha Sharma,E2915
+26MCC-101,Wednesday,11:25,12:10,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-305,E1,,Ms. Ruchika Devi,E10474
+26MCC-101,Wednesday,12:10,12:55,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-213,E1,,Ms. Tanisha,E20679
+26MCC-101,Wednesday,13:40,14:25,lecture,26CAH-606,Python Programming,Lect-Hall-312,E1,,Dr. Nisha Sharma,E2915
+26MCC-101,Wednesday,14:25,15:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-213,E1,,Dr. Rajan Saluja,E15748
+26MCC-101,Thursday,09:55,10:40,lecture,26CAT-621,High Performance Computing,Multi_Lab-401,E1,,Mr Dhruv Shah,E19145
+26MCC-101,Thursday,10:40,11:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-117,E1,,Dr. Rajan Saluja,E15748
+26MCC-101,Thursday,11:25,12:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-406,E1,A,Ms. Tanisha,E20679
+26MCC-101,Friday,09:55,10:40,lecture,26CAH-606,Python Programming,Lect-Hall-109,E1,,Dr. Nisha Sharma,E2915
+26MCC-101,Friday,11:25,12:10,lecture,26CAT-621,High Performance Computing,Lect-Hall-213,E1,,Mr Dhruv Shah,E19145
+26MCC-101,Friday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-415,E1,,Dr. Nisha Sharma,E2915
+26MCC-101,Friday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-415,E1,A,Dr. Rajan Saluja,E15748
+26MCC-102,Monday,09:55,10:40,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-213,E1,,Dr. Gagandeep Kaur,E12617
+26MCC-102,Monday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-115,E1,,Dr. Mandeep Singh,E8730
+26MCC-102,Monday,11:25,12:55,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-413,E1,A,Mr. Shivam Ojha,E20570
+26MCC-102,Monday,13:40,14:25,lecture,26CAH-606,Python Programming,Lect-Hall-305,E1,,Dr. Sarabjeet Kaur,E14554
+26MCC-102,Tuesday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-401,E1,,Dr. Sarabjeet Kaur,E14554
+26MCC-102,Tuesday,11:25,12:10,lecture,26CAH-614,Advanced Internet Programming,Multi_Lab-415,E1,,Mr. Shivam Ojha,E20570
+26MCC-102,Tuesday,12:55,13:40,lecture,26CAT-621,High Performance Computing,Lect-Hall-305,E1,,Mr. Shivam Ojha,E20570
+26MCC-102,Tuesday,13:40,14:25,lecture,26CAH-606,Python Programming,Lect-Hall-113,E1,,Dr. Sarabjeet Kaur,E14554
+26MCC-102,Tuesday,14:25,15:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-312,E1,,Dr. Mandeep Singh,E8730
+26MCC-102,Wednesday,09:55,10:40,lecture,26CAT-621,High Performance Computing,Lect-Hall-210,E1,,Mr. Shivam Ojha,E20570
+26MCC-102,Wednesday,10:40,11:25,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-205,E1,,Mr. Shivam Ojha,E20570
+26MCC-102,Wednesday,11:25,12:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-313,E1,A,Dr. Mandeep Singh,E8730
+26MCC-102,Wednesday,14:25,15:55,lab,26CAP-622,Linux Administration Lab,Multi_Lab-215,E1,A,Mr. Ajay Yadav,E13382
+26MCC-102,Thursday,09:55,11:25,lab,26CAH-606,Python Programming,Multi_Lab-215,E1,,Dr. Sarabjeet Kaur,E14554
+26MCC-102,Thursday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-309,E1,,Dr. Mandeep Singh,E8730
+26MCC-102,Thursday,12:10,12:55,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-309,E1,,Dr. Gagandeep Kaur,E12617
+26MCC-102,Thursday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-411,E1,A,Mr. Shubham Sharma,E20414
+26MCC-102,Friday,10:40,11:25,lecture,26CAT-621,High Performance Computing,Lecture Hall-226,E2,,Mr. Shivam Ojha,E20570
+26MCC-102,Friday,11:25,12:10,lecture,26CAT-611,Design and Analysis of Algorithms,Multi_Lab-417,E1,,Dr. Gagandeep Kaur,E12617
+26MCC-102,Friday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-202,E1,A,Mr. Shubham Sharma,E20414
+26MCD-1,Monday,09:55,10:40,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-205,E1,,Ms. Gurpreet Kaur,E15615
+26MCD-1,Monday,10:40,11:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-213,E1,,Ms. Gurpreet Kaur,E14273
+26MCD-1,Monday,11:25,12:55,lab,26CAP-602,PL/SQL Lab,Multi_Lab-406,E1,"A,B",Ms. Winky Bhatia / Ms. Ashima,E18463;R296
+26MCD-1,Monday,14:25,15:10,lecture,26CAT-631,Fundamentals of Data Science,Lect-Hall-109,E1,,Dr. Lovkesh Singh,E18584
+26MCD-1,Tuesday,09:55,10:40,lecture,26CAT-631,Fundamentals of Data Science,Lecture Hall-225,E2,,Dr. Lovkesh Singh,E18584
+26MCD-1,Tuesday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Lecture Hall-226,E2,,Ms. Winky Bhatia,E18463
+26MCD-1,Tuesday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-206,E1,A,Dr. Pawandeep Sharma,E2916
+26MCD-1,Tuesday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-207,E1,B,Ms. Palwinder Kaur Mangat,E9422
+26MCD-1,Tuesday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-307,E1,B,Mr.Rithik,E20677
+26MCD-1,Wednesday,09:55,10:40,lecture,26CAT-631,Fundamentals of Data Science,Lect-Hall-309,E1,,Dr. Lovkesh Singh,E18584
+26MCD-1,Wednesday,10:40,11:25,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-309,E1,,Ms. Gurpreet Kaur,E14273
+26MCD-1,Wednesday,11:25,12:10,lecture,26CAH-606,Python Programming,Lect-Hall-205,E1,,Dr. Pawandeep Sharma,E2916
+26MCD-1,Wednesday,12:10,12:55,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-205,E1,,Ms. Gurpreet Kaur,E15615
+26MCD-1,Wednesday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-213,E1,,Ms. Winky Bhatia,E18463
+26MCD-1,Wednesday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-415,E1,A,Ms. Gurpreet Kaur,E14273
+26MCD-1,Wednesday,14:25,15:55,lab,26CAH-606,Python Programming,Multi_Lab-307,E1,B,Ms. Palwinder Kaur Mangat,E9422
+26MCD-1,Thursday,09:55,11:25,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-415,E1,"A,B",Ms. Shruti / Ms. Tanisha,E13567;E20679
+26MCD-1,Thursday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-206,E1,A,Dr. Pawandeep Sharma,E2916
+26MCD-1,Thursday,12:55,14:25,lab,26CAP-632,Statistical Techniques Using R Lab,Multi_Lab-301,E1,B,Dr. Ravi,E20675
+26MCD-1,Thursday,14:25,15:55,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-413,E1,A,Ms. Gurpreet Kaur,E14273
+26MCD-1,Friday,09:55,11:25,lab,26CAP-632,Statistical Techniques Using R Lab,Multi_Lab-306,E1,A,Dr. Ravi,E20675
+26MCD-1,Friday,09:55,11:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-206,E1,B,Mr.Rithik,E20677
+26MCD-1,Friday,11:25,12:10,lecture,26CAH-606,Python Programming,Multi_Lab-215,E1,,Dr. Pawandeep Sharma,E2916
+26MCD-1,Friday,12:55,13:40,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-305,E1,,Ms. Gurpreet Kaur,E14273
+26MCD-1,Friday,13:40,14:25,lecture,26CAT-601,Advanced Database Management System,Multi_Lab-401,E1,,Ms. Winky Bhatia,E18463
+26MCD-2,Monday,10:40,11:25,lecture,26CAT-631,Fundamentals of Data Science,Lect-Hall-117,E1,,Dr. Rajan Saluja,E15748
+26MCD-2,Monday,11:25,12:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-117,E1,,Ms. Divyanshi Sharma,E17438
+26MCD-2,Monday,12:55,14:25,lab,26CAH-614,Advanced Internet Programming,Multi_Lab-206,E1,A,Ms. Tanisha,E20679
+26MCD-2,Tuesday,09:55,11:25,lab,26CAP-632,Statistical Techniques Using R Lab,Multi_Lab-111,E1,A,Dr. Ravi,E20675
+26MCD-2,Tuesday,11:25,12:10,lecture,26CAT-611,Design and Analysis of Algorithms,Multi_Lab-411,E1,,Ms. Divyanshi Sharma,E17438
+26MCD-2,Tuesday,12:55,13:40,lecture,26CAT-601,Advanced Database Management System,Lecture Hall-225,E2,,Ms. Winky Bhatia,E18463
+26MCD-2,Tuesday,13:40,14:25,lecture,26CAH-614,Advanced Internet Programming,Lecture Hall-225,E2,,Ms. Tanisha,E20679
+26MCD-2,Tuesday,14:25,15:10,lecture,26CAT-631,Fundamentals of Data Science,Lect-Hall-305,E1,,Dr. Rajan Saluja,E15748
+26MCD-2,Wednesday,09:55,11:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-307,E1,A,Ms. Divyanshi Sharma,E17438
+26MCD-2,Wednesday,11:25,12:55,lab,26CAH-606,Python Programming,Multi_Lab-201,E1,A,Er. Prabhjot Kaur,E17274
+26MCD-2,Wednesday,13:40,14:25,lecture,26CAT-631,Fundamentals of Data Science,Lect-Hall-309,E1,,Dr. Rajan Saluja,E15748
+26MCD-2,Wednesday,14:25,15:10,lecture,26CAT-611,Design and Analysis of Algorithms,Lect-Hall-309,E1,,Ms. Divyanshi Sharma,E17438
+26MCD-2,Thursday,09:55,11:25,lab,26CAP-602,PL/SQL Lab,Multi_Lab-313,E1,A,Ms. Winky Bhatia,E18463
+26MCD-2,Thursday,11:25,12:10,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-117,E1,,Ms. Winky Bhatia,E18463
+26MCD-2,Thursday,12:55,14:25,lab,26CAH-606,Python Programming,Multi_Lab-110,E1,A,Er. Prabhjot Kaur,E17274
+26MCD-2,Thursday,14:25,15:10,lecture,26CAH-606,Python Programming,Lect-Hall-117,E1,,Er. Prabhjot Kaur,E17274
+26MCD-2,Friday,09:55,10:40,lecture,26CAH-614,Advanced Internet Programming,Lect-Hall-115,E1,,Ms. Tanisha,E20679
+26MCD-2,Friday,10:40,11:25,lecture,26CAT-601,Advanced Database Management System,Lect-Hall-309,E1,,Ms. Winky Bhatia,E18463
+26MCD-2,Friday,11:25,12:10,lecture,26CAH-606,Python Programming,Lect-Hall-210,E1,,Er. Prabhjot Kaur,E17274
+26MCD-2,Friday,12:55,14:25,lab,26CAP-612,Design and Analysis of Algorithms Lab,Multi_Lab-206,E1,A,Ms. Divyanshi Sharma,E17438

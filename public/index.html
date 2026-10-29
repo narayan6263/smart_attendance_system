@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NovaID · Attendance dashboard</title>
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/portal.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="/"><span class="brand-mark">⌁</span><span>nova<span>ID</span><small>SMART ATTENDANCE</small></span></a>
+      <div class="side-label" id="workspaceLabel">TEACHER WORKSPACE</div>
+      <nav class="nav" aria-label="Dashboard sections">
+        <button class="active" data-tab="lectures" data-role="teacher">▦ &nbsp; My lectures</button>
+        <button data-tab="admin" data-role="admin" hidden>◈ &nbsp; Institute overview</button>
+        <button data-tab="reports" data-role="teacher">◷ &nbsp; Attendance reports</button>
+        <button data-tab="reports" data-role="admin" hidden>◷ &nbsp; Class reports</button>
+        <button data-tab="students" data-role="teacher">♙ &nbsp; Students</button>
+        <button data-tab="students" data-role="admin" hidden>♙ &nbsp; All students</button>
+        <button data-tab="timetable" data-role="teacher">⇧ &nbsp; My timetable</button>
+        <button data-tab="timetable" data-role="admin" hidden>⇧ &nbsp; Institute timetable</button>
+      </nav>
+      <div class="side-info"><strong>RFID attendance</strong><span>Scan windows follow the imported class timetable.</span></div>
+      <div class="side-foot">TEACHER CONTROL · LIVE SYNC</div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">ATTENDANCE / CONTROL CENTER</div>
+          <h1 id="dashboardTitle">Teacher <span>dashboard.</span></h1>
+          <p id="dashboardDescription">Manage lecture scans, class lists, and attendance reports.</p>
+        </div>
+        <div class="top-actions">
+          <div class="user-chip" id="who"></div>
+          <button class="btn btn-outline-secondary btn-sm" id="logout" type="button">Sign out</button>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="tab" id="tab-admin" hidden>
+<div class="card-box">
+  <div class="page-heading"><div><h2>Scanner devices</h2><p>Live status of the RFID readers. The power button is on the device itself.</p></div></div>
+  <div class="deviceList"><div class="muted">Loading devices…</div></div>
+</div>
+          <div class="page-heading">
+            <div><div class="eyebrow">INSTITUTE CONTROL</div><h2>Admin overview</h2><p>All classes, rooms, teachers, and attendance for the selected date.</p></div>
+            <div class="toolbar"><label>Date<input type="date" id="adminDate" class="form-control form-control-sm"></label><button id="adminRefresh" class="btn btn-primary btn-sm" type="button">Load date</button></div>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card"><span>CLASSES</span><strong id="adminClasses">0</strong></article>
+            <article class="stat-card"><span>LECTURES TODAY</span><strong id="adminSlots">0</strong></article>
+            <article class="stat-card"><span>SCANNING NOW</span><strong id="adminOpen">0</strong></article>
+            <article class="stat-card"><span>PRESENT RECORDS</span><strong id="adminPresent">0</strong></article>
+            <article class="stat-card"><span>TEACHERS</span><strong id="adminTeachers">0</strong></article>
+            <article class="stat-card"><span>REGISTERED STUDENTS</span><strong id="adminStudents">0</strong></article>
+            <article class="stat-card"><span>RFID SCANS TODAY</span><strong id="adminScans">0</strong></article>
+            <article class="stat-card"><span>PARTIAL LAB RECORDS</span><strong id="adminPartial">0</strong></article>
+          </div>
+          <div class="card-box">
+            <div class="page-heading"><div><h2>Find a teacher</h2><p>Type a name, employee code (e.g. E7981) or email. Pick a day or a date range to see class-wise lectures and present counts.</p></div></div>
+            <div class="toolbar">
+              <label>Teacher<input id="tSearch" class="form-control form-control-sm" list="tList" placeholder="Name or E7981"><datalist id="tList"></datalist></label>
+              <label>From<input type="date" id="tFrom" class="form-control form-control-sm"></label>
+              <label>To<input type="date" id="tTo" class="form-control form-control-sm"></label>
+              <button id="tDay" class="btn btn-outline-primary btn-sm" type="button">Show day</button>
+              <button id="tRange" class="btn btn-primary btn-sm" type="button">Show range</button>
+            </div>
+            <div id="tResults" class="mt-3"></div>
+          </div>
+          <div class="card-box">
+            <div class="page-heading"><div><h2>Class and room schedule</h2><p>Scan windows and present counts, across all teachers.</p><div class="toolbar"><input id="adminFilter" class="form-control form-control-sm" placeholder="Filter by class, subject, teacher or room"></div></div></div>
+            <div class="table-responsive"><table class="table table-hover"><thead><tr><th>CLASS / GROUP</th><th>TIME</th><th>SUBJECT</th><th>TEACHER</th><th>ROOM</th><th>STATUS</th><th>PRESENT</th><th></th></tr></thead><tbody id="adminSlotRows"><tr><td colspan="8" class="muted">Loading institute schedule…</td></tr></tbody></table></div>
+          </div>
+          <div class="card-box">
+            <div class="page-heading"><div><h2>Teacher accounts</h2><p>Employee codes link each account to its timetable lectures.</p></div></div>
+            <div class="table-responsive"><table class="table table-hover"><thead><tr><th>TEACHER</th><th>EMPLOYEE CODE</th><th>EMAIL</th><th>ROLE</th></tr></thead><tbody id="adminTeacherRows"><tr><td colspan="4" class="muted">Loading teacher accounts…</td></tr></tbody></table></div>
+          </div>
+        </section>
+
+        <section class="tab" id="tab-lectures">
+<div class="card-box">
+  <div class="page-heading"><div><h2>Scanner devices</h2><p>Live status of the RFID readers. The power button is on the device itself.</p></div></div>
+  <div class="deviceList"><div class="muted">Loading devices…</div></div>
+</div>
+          <div class="page-heading">
+            <div><div class="eyebrow">YOUR TIMETABLE</div><h2>My lectures</h2><p>Scanning opens only during the allowed time window.</p></div>
+            <div class="toolbar"><label>Lecture date<input type="date" id="slotDate" class="form-control form-control-sm"></label></div>
+          </div>
+          <div class="card-box">
+            <div class="page-heading"><div><h2 id="dayTitle">Loading lectures…</h2><p>Allow scanning for a short extra window when needed.</p></div></div>
+            <div id="slotList"><div class="muted">Loading your lectures…</div></div>
+          </div>
+        </section>
+
+        <section class="tab" id="tab-reports" hidden>
+          <div class="page-heading">
+            <div><div class="eyebrow">REVIEW ATTENDANCE</div><h2>Lecture reports</h2><p>Review present, partial, and absent students by class.</p></div>
+            <div class="toolbar">
+              <label>Class<select id="fClass" class="form-select form-select-sm"><option value="">All</option></select></label>
+              <label>Subject<select id="fSubject" class="form-select form-select-sm"><option value="">All</option></select></label>
+              <label id="teacherFilterWrap" hidden>Teacher<select id="fTeacher" class="form-select form-select-sm"><option value="">All teachers</option></select></label>
+            </div>
+          </div>
+          <div class="card-box"><h3 class="section-title">Recent attendance trend</h3><div class="chartbox"><canvas id="trendChart"></canvas></div></div>
+          <div class="card-box"><label class="field-label" for="fLecture">Lecture report<select id="fLecture" class="form-select mt-1"><option value="">Loading…</option></select></label></div>
+          <div class="card-box" id="studentSearchBox" hidden>
+            <h3 class="section-title">Find student attendance</h3>
+            <form id="studentSearchForm" class="toolbar"><label>RFID card UID<input id="studentSearchUid" class="form-control" placeholder="04 A3 1B 2C" required></label><button class="btn btn-primary" type="submit">View full record</button></form>
+            <p class="muted mt-2">Search a card UID to see the student's attendance across all classes and teachers.</p>
+          </div>
+          <div id="reportBody"></div>
+        </section>
+
+        <section class="tab" id="tab-students" hidden>
+          <div class="page-heading"><div><div class="eyebrow">CLASS ROSTER</div><h2>Students</h2><p>Add student cards or import a student list.</p></div>
+            <div class="toolbar"><label>Filter by class<select id="stClass" class="form-select form-select-sm"><option value="">All classes</option></select></label></div>
+          </div>
+          <div class="card-box">
+            <div class="unknown" id="unknownBox">Scan an unregistered card on the reader to see its UID here.</div>
+            <h3 class="section-title">Add a student</h3>
+            <form id="stForm" class="row g-2 align-items-end mb-3">
+              <div class="col-sm-6 col-lg"><label class="field-label">Card UID<input class="form-control" id="stUid" name="uid" required placeholder="04 A3 1B 2C"></label></div>
+              <div class="col-sm-6 col-lg"><label class="field-label">Name<input class="form-control" name="name" required></label></div>
+              <div class="col-sm-4 col-lg"><label class="field-label">Roll number<input class="form-control" name="rollNo"></label></div>
+              <div class="col-sm-4 col-lg"><label class="field-label">Class<input class="form-control" name="className" list="classList" required placeholder="25MAM-2"><datalist id="classList"></datalist></label></div>
+              <div class="col-sm-4 col-lg"><label class="field-label">Group<input class="form-control" name="group" placeholder="A / B"></label></div>
+              <div class="col-auto"><button class="btn btn-primary" type="submit">Add student</button></div>
+            </form>
+            <form id="stUpload" class="upload-row mb-3"><label class="field-label">Import student CSV/Excel<input class="form-control" type="file" accept=".csv,.xlsx,.xls,text/csv" required></label><button class="btn btn-outline-primary" type="submit">Upload student list</button><a class="btn btn-link btn-sm" href="/students-template.csv">Download template</a></form>
+            <div class="table-responsive"><table class="table table-hover"><thead><tr><th>ROLL</th><th>NAME</th><th>CLASS</th><th>GROUP</th><th>CARD UID</th><th></th></tr></thead><tbody id="stRows"><tr><td colspan="6" class="muted">Loading students…</td></tr></tbody></table></div>
+          </div>
+        </section>
+
+        <section class="tab" id="tab-sreport" hidden>
+          <div class="page-heading">
+            <div><div class="eyebrow">STUDENT HISTORY</div><h2 id="srTitle">Student record</h2><p>Attendance by lecture and subject.</p></div>
+            <div class="toolbar">
+              <label>Report scope<select id="srScope" class="form-select form-select-sm"><option value="mine">My lectures</option><option value="all" data-role="admin" hidden>All teachers</option></select></label>
+              <button class="btn btn-outline-secondary btn-sm" data-tab="students" type="button">Back to students</button>
+            </div>
+          </div>
+          <div id="srBody"></div>
+        </section>
+
+        <section class="tab" id="tab-timetable" hidden>
+          <div class="page-heading"><div><div class="eyebrow">CLASS SCHEDULE</div><h2>Timetable</h2><p id="ttInfo">Loading your timetable…</p></div></div>
+          <div class="card-box">
+            <p class="muted" id="ttWho"></p>
+            <div id="ttAdmin" hidden>
+              <h3 class="section-title">Import timetable</h3>
+              <form id="ttUpload" class="upload-row mb-3">
+                <label class="field-label">Timetable PDF, Excel, or CSV<input class="form-control" type="file" accept=".pdf,.csv,.xlsx,.xls,application/pdf,text/csv" required></label>
+                <button class="btn btn-primary" type="submit">Upload timetable</button>
+                <a class="btn btn-outline-primary btn-sm" href="/timetable-template.csv" download>Download CSV template</a>
+              </form>
+              <p class="muted">Include className, day, startTime, endTime, subject, room, teacherCodes, and teachers columns. Use each teacher's employee code so their account receives the correct lectures. Lecture scans open for the first 10 minutes; 90-minute labs have two scan rounds.</p>
+            </div>
+            <div class="table-responsive"><table class="table table-hover"><thead><tr><th>DAY</th><th>TIME</th><th>SUBJECT</th><th>CLASS / GROUP</th><th>ROOM</th></tr></thead><tbody id="ttRows"><tr><td colspan="5" class="muted">Loading timetable…</td></tr></tbody></table></div>
+          </div>
+        </section>
+      </div>
+      <footer>© 2026 NOVAID ATTENDANCE · TEACHER-CONTROLLED RFID</footer>
+    </main>
+  </div>
+  <div class="toast-stack" id="toasts" aria-live="polite"></div>
+  <script src="/vendor/chartjs/chart.umd.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
